@@ -1,11 +1,11 @@
-uuid: 927f99b4-e31f-4973-80cf-6ad91c6793e8
+uuid: 51732738-9d15-445b-a295-755f528f2bcc
 langcode: es
 status: true
 dependencies:
   module:
     - block_content
-id: block_content.field_lib_v2_questions_title
-field_name: field_lib_v2_questions_title
+id: block_content.field_lib_v2_banner_main_heading
+field_name: field_lib_v2_banner_main_heading
 entity_type: block_content
 type: string
 settings:

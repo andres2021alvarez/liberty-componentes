@@ -1,7 +1,7 @@
-
+{{ attach_library('lib_v2_core/libraries') }}
+{{ attach_library('lib_cards_v2/libraries') }}
 <div class="lib-comp-cardlist">
-    <div class="lib-comp-cardlist__container">
-            {{content.field_lib_v2_cards_group_ref}}
+    <div class="lib-comp-cardlist__container {{content.field_lib_v2_cards_group_ref.0['#markup']}}">
         {% for key, item in content.field_lib_v2_cards_group_r if key|first != '#' %}
 
             {# Card Item #}
