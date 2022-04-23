@@ -1,7 +1,7 @@
 name: 'Preguntas frecuentes'
 type: module
 description: 'Drop-down tabs with text'
-core: 8.x
+core_version_requirement: ^8 || ^9
 package: 'Esinergia'
 dependencies:
   - lib_v2_core
