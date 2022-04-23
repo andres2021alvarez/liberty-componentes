@@ -3,7 +3,7 @@
 
 # Ignore paths that contain user-generated content.
 /web/sites/default/files/*
-
+/vendor/*
 # Ignore build artifacts
 deployment_identifier
 /deploy
