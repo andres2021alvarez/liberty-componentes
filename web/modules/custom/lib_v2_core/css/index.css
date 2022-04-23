@@ -1,0 +1,18 @@
+:root {
+    --yellow-color: #FFD000;
+    --primary-color: #1A1446;
+    --button-color: #78E1E1;
+    --black-color: #333;
+  }
+
+.lib-comp-button {
+    background: var(--button-color);
+    padding: 0.8rem 2rem;
+    margin: 1.5rem auto;
+    display: table;
+    text-align: center;
+    border-radius: 30px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: var(--primary-color);
+}

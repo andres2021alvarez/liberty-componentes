@@ -13,7 +13,7 @@ entity_type: block_content
 bundle: lib_v2_carousel_card
 label: 'Color Botón'
 description: ''
-required: false
+required: true
 translatable: false
 default_value:
   -
