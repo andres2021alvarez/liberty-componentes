@@ -6,6 +6,10 @@ dependencies:
     - block_content.type.lib_v2_cards_group
     - field.field.block_content.lib_v2_cards_group.field_lib_v2_cards_group_r
     - field.field.block_content.lib_v2_cards_group.field_lib_v2_cards_group_ref
+  module:
+    - options
+_core:
+  default_config_hash: p5g2qHC1GwB7HMBv7R2PdvcTsfoCtiPJ9rPVV1xgw6M
 id: block_content.lib_v2_cards_group.default
 targetEntityType: block_content
 bundle: lib_v2_cards_group
@@ -20,6 +24,12 @@ content:
     third_party_settings: {  }
     weight: 0
     region: content
+  field_lib_v2_cards_group_ref:
+    type: list_key
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
 hidden:
-  field_lib_v2_cards_group_ref: true
   langcode: true

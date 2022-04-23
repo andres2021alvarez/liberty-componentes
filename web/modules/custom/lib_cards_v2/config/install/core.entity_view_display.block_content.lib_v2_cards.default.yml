@@ -11,6 +11,8 @@ dependencies:
   module:
     - image
     - link
+_core:
+  default_config_hash: bzXUs2VM3bxBVreRt5x0lOz4Ko4OToUOthIYAcirdBg
 id: block_content.lib_v2_cards.default
 targetEntityType: block_content
 bundle: lib_v2_cards

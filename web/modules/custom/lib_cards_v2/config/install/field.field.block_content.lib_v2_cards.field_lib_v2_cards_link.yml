@@ -7,6 +7,8 @@ dependencies:
     - field.storage.block_content.field_lib_v2_cards_link
   module:
     - link
+_core:
+  default_config_hash: NlvOq5zV8jefBR5dBMWCFgvEzjeHMisfAkSblbs7_Ac
 id: block_content.lib_v2_cards.field_lib_v2_cards_link
 field_name: field_lib_v2_cards_link
 entity_type: block_content
