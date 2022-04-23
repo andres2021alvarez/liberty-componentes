@@ -14,11 +14,11 @@ type: list_string
 settings:
   allowed_values:
     -
-      value: grid_3
-      label: 'Grid - 3'
+      value: grid-3
+      label: '3 Columnas'
     -
-      value: grid_4
-      label: 'Grid - 4'
+      value: grid-4
+      label: '4 Columnas'
   allowed_values_function: ''
 module: options
 locked: false

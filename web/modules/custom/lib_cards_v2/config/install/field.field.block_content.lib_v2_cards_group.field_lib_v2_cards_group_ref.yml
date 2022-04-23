@@ -15,7 +15,7 @@ entity_type: block_content
 bundle: lib_v2_cards_group
 label: 'Cantidad columnas'
 description: ''
-required: false
+required: true
 translatable: false
 default_value: {  }
 default_value_callback: ''
