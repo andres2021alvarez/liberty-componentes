@@ -45,3 +45,5 @@ function lib_carousel_v2_theme_suggestions_block_alter(array &$suggestions, arra
         array_splice($suggestions, 1, 0, 'block__' . $variables['elements']['content']['#block_content']->bundle());
     }
 }
+
+
