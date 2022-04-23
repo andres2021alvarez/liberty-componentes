@@ -3,3 +3,5 @@ type: module
 description: 'Drop-down tabs with text'
 core: 8.x
 package: 'Esinergia'
+dependencies:
+  - lib_v2_core
