@@ -1,8 +1,9 @@
 # Ignore binaries.
 /bin
 
-# Ignore non-custom parts of Drupal.
-/web/sites/default/files/*
+# Ignore paths that contain user-generated content.
+/web/sites/*/files
+/web/sites/*/private
 
 # Ignore build artifacts
 deployment_identifier
