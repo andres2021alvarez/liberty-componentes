@@ -6,7 +6,7 @@
     'aliases' => 
     array (
     ),
-    'reference' => '7970841c95f20efa4c0edd0029356767ebda6b49',
+    'reference' => '8c3ea0e2c322780d8d62d1e3b129890c87b294e2',
     'name' => 'drupal/recommended-project',
   ),
   'versions' => 
@@ -29,6 +29,15 @@
       ),
       'reference' => 'b9c31def6a83f84b4d4a40d35996d375755f0e08',
     ),
+    'chi-teck/drupal-code-generator' => 
+    array (
+      'pretty_version' => '2.5.3',
+      'version' => '2.5.3.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => 'a49f29b0fe6b6c87fa7dc8979589ce8794c4d655',
+    ),
     'composer/installers' => 
     array (
       'pretty_version' => 'v1.12.0',
@@ -46,6 +55,87 @@
       array (
       ),
       'reference' => '83e511e247de329283478496f7a1e114c9517506',
+    ),
+    'consolidation/annotated-command' => 
+    array (
+      'pretty_version' => '4.5.4',
+      'version' => '4.5.4.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '93398c3166d9026ab93219ce23b2092b4d7b7904',
+    ),
+    'consolidation/config' => 
+    array (
+      'pretty_version' => '2.0.6',
+      'version' => '2.0.6.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => 'd90e684c07582ab91916771565f9c768ebfd5dae',
+    ),
+    'consolidation/filter-via-dot-access-data' => 
+    array (
+      'pretty_version' => '2.0.2',
+      'version' => '2.0.2.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => 'cb2eeba41f8e2e3c61698a5cf70ef048ff6c9d5b',
+    ),
+    'consolidation/log' => 
+    array (
+      'pretty_version' => '2.1.1',
+      'version' => '2.1.1.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '3ad08dc57e8aff9400111bad36beb0ed387fe6a9',
+    ),
+    'consolidation/output-formatters' => 
+    array (
+      'pretty_version' => '4.2.2',
+      'version' => '4.2.2.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => 'd57992bf81ead908ee21cd94b46ed65afa2e785b',
+    ),
+    'consolidation/robo' => 
+    array (
+      'pretty_version' => '3.0.10',
+      'version' => '3.0.10.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '206bbe23b34081a36bfefc4de2abbc1abcd29ef4',
+    ),
+    'consolidation/self-update' => 
+    array (
+      'pretty_version' => '2.0.5',
+      'version' => '2.0.5.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '8a64bdd8daf5faa8e85f56534dd99caf928164b3',
+    ),
+    'consolidation/site-alias' => 
+    array (
+      'pretty_version' => '3.1.5',
+      'version' => '3.1.5.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => 'ef2eb7d37e59b3d837b4556d4d8070cb345b378c',
+    ),
+    'consolidation/site-process' => 
+    array (
+      'pretty_version' => '4.2.0',
+      'version' => '4.2.0.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '9ef08d471573d6a56405b06ef6830dd70c883072',
     ),
     'dflydev/dot-access-configuration' => 
     array (
@@ -812,7 +902,7 @@
       'aliases' => 
       array (
       ),
-      'reference' => '7970841c95f20efa4c0edd0029356767ebda6b49',
+      'reference' => '8c3ea0e2c322780d8d62d1e3b129890c87b294e2',
     ),
     'drupal/responsive_image' => 
     array (
@@ -982,6 +1072,15 @@
         0 => '9.3.12',
       ),
     ),
+    'drush/drush' => 
+    array (
+      'pretty_version' => '11.0.9',
+      'version' => '11.0.9.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '88b2293ded84f67aad96ad6dbd64cacd84bcd6fe',
+    ),
     'egulias/email-validator' => 
     array (
       'pretty_version' => '3.1.2',
@@ -990,6 +1089,24 @@
       array (
       ),
       'reference' => 'ee0db30118f661fb166bcffbf5d82032df484697',
+    ),
+    'enlightn/security-checker' => 
+    array (
+      'pretty_version' => 'v1.10.0',
+      'version' => '1.10.0.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '196bacc76e7a72a63d0e1220926dbb190272db97',
+    ),
+    'grasmash/expander' => 
+    array (
+      'pretty_version' => '1.0.0',
+      'version' => '1.0.0.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '95d6037344a4be1dd5f8e0b0b2571a28c397578f',
     ),
     'guzzlehttp/guzzle' => 
     array (
@@ -1054,6 +1171,15 @@
       ),
       'reference' => 'db581851a092246ad99e12d4fddf105184924c71',
     ),
+    'league/container' => 
+    array (
+      'pretty_version' => '4.2.0',
+      'version' => '4.2.0.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '375d13cb828649599ef5d48a339c4af7a26cd0ab',
+    ),
     'masterminds/html5' => 
     array (
       'pretty_version' => '2.7.5',
@@ -1071,6 +1197,13 @@
       array (
       ),
       'reference' => '210577fe3cf7badcc5814d99455df46564f3c077',
+    ),
+    'orno/di' => 
+    array (
+      'replaced' => 
+      array (
+        0 => '~2.0',
+      ),
     ),
     'pear/archive_tar' => 
     array (
@@ -1131,6 +1264,7 @@
       'provided' => 
       array (
         0 => '1.0',
+        1 => '^1.0',
       ),
     ),
     'psr/event-dispatcher-implementation' => 
@@ -1423,6 +1557,15 @@
       ),
       'reference' => '63b5bb7db83e5673936d6e3b8b3e022ff6474933',
     ),
+    'symfony/polyfill-intl-grapheme' => 
+    array (
+      'pretty_version' => 'v1.25.0',
+      'version' => '1.25.0.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '81b86b50cf841a64252b439e738e97f4a34e2783',
+    ),
     'symfony/polyfill-intl-idn' => 
     array (
       'pretty_version' => 'v1.23.0',
@@ -1537,6 +1680,15 @@
       array (
         0 => '1.0|2.0',
       ),
+    ),
+    'symfony/string' => 
+    array (
+      'pretty_version' => 'v6.0.3',
+      'version' => '6.0.3.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '522144f0c4c004c80d56fa47e40e17028e2eefc2',
     ),
     'symfony/translation' => 
     array (
