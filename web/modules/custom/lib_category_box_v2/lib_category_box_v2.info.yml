@@ -1,0 +1,5 @@
+name: 'Lib category box v2'
+type: module
+description: 'Caja de categorias v2'
+core: 8.x
+package: 'Esinergia'
