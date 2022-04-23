@@ -7,4 +7,4 @@ _core:
 id: lib_v2_carousel
 label: Carrusel
 revision: 0
-description: ''
+description: 'Carousel con imagen, texto y un botón de enlace a cualquier sitio activo.'

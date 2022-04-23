@@ -1,0 +1,6 @@
+libraries:
+  version: VERSION
+  css:
+    css/index.css : {}
+  js:
+    js/index.js : {}

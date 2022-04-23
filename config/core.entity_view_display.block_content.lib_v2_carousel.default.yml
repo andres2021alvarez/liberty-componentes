@@ -4,33 +4,79 @@ status: true
 dependencies:
   config:
     - block_content.type.lib_v2_carousel
-    - field.field.block_content.lib_v2_carousel.body
+    - field.field.block_content.lib_v2_carousel.field_lib_v2_carousel_background
     - field.field.block_content.lib_v2_carousel.field_lib_v2_carousel_image
+    - field.field.block_content.lib_v2_carousel.field_lib_v2_carousel_link
+    - field.field.block_content.lib_v2_carousel.field_lib_v2_carousel_link_color
+    - field.field.block_content.lib_v2_carousel.field_lib_v2_carousel_sec
+    - field.field.block_content.lib_v2_carousel.field_lib_v2_carousel_text_main
+    - field.field.block_content.lib_v2_carousel.field_lib_v2_carousel_text_sup
   module:
-    - image
-    - text
-_core:
-  default_config_hash: YldG6Go8WlZNQTXLbsg5_zrbt1NQX2Cb88SCNQAs31g
+    - link
+    - options
 id: block_content.lib_v2_carousel.default
 targetEntityType: block_content
 bundle: lib_v2_carousel
 mode: default
 content:
-  body:
-    type: text_default
+  field_lib_v2_carousel_background:
+    type: list_key
     label: hidden
     settings: {  }
     third_party_settings: {  }
-    weight: 0
+    weight: 7
     region: content
   field_lib_v2_carousel_image:
-    type: image
-    label: above
+    type: entity_reference_entity_view
+    label: hidden
     settings:
-      image_link: ''
-      image_style: ''
+      view_mode: default
+      link: false
     third_party_settings: {  }
-    weight: 1
+    weight: 8
+    region: content
+  field_lib_v2_carousel_link:
+    type: link_separate
+    label: hidden
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    weight: 5
+    region: content
+  field_lib_v2_carousel_link_color:
+    type: list_key
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 6
+    region: content
+  field_lib_v2_carousel_sec:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 4
+    region: content
+  field_lib_v2_carousel_text_main:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_lib_v2_carousel_text_sup:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 2
     region: content
 hidden:
   langcode: true
