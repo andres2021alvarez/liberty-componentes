@@ -1,3 +1,19 @@
-.h1{
-    background-color: #ffffff;
-}   
+:root {
+    --yellow-color: #FFD000;
+    --primary-color: #1A1446;
+    --button-color: #78E1E1;
+  }
+
+.lib-comp-carrousel__items {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.lib-comp-carrousel__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--yellow-color);
+    color: var(--primary-color);
+}
