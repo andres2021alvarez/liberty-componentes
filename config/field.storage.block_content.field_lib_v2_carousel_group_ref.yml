@@ -1,20 +1,18 @@
-uuid: 0a05f579-f87f-4a9f-8e4e-86833f0bbef0
+uuid: 022300a6-2c86-4129-bd73-32843a297073
 langcode: es
 status: true
 dependencies:
   module:
     - block_content
-id: block_content.field_lib_v2_carousel_sec
-field_name: field_lib_v2_carousel_sec
+id: block_content.field_lib_v2_carousel_group_ref
+field_name: field_lib_v2_carousel_group_ref
 entity_type: block_content
-type: string
+type: entity_reference
 settings:
-  max_length: 255
-  case_sensitive: false
-  is_ascii: false
+  target_type: block_content
 module: core
 locked: false
-cardinality: 1
+cardinality: -1
 translatable: true
 indexes: {  }
 persist_with_no_fields: false
