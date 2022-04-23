@@ -14,7 +14,7 @@ mode: default
 content:
   field_lib_v2_carousel_group_ref:
     type: inline_entity_form_complex
-    weight: 26
+    weight: 1
     region: content
     settings:
       form_mode: default
@@ -29,6 +29,13 @@ content:
       collapsed: false
       revision: false
     third_party_settings: {  }
+  info:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
 hidden:
-  info: true
   langcode: true
