@@ -30,21 +30,20 @@
 	<div class="lib-comp-carrousel__items">
 		{% for key, item in content.field_lib_v2_carousel_group_ref if key|first != '#' %}
 		{# Items carrousel #}
-
-		{{ kint(item)}}
-		<div class="lib-comp-carrousel__item">
-			<div class="lib-comp-carrousel__card">
-				<div class="lib-comp-carrousel__content">
-					<span>{{item.field_lib_v2_carousel_text_sup.0['#context'].value}}</span>
-					<h2 class="lib-comp-carrousel__title">{{item.field_lib_v2_carousel_text_main.0['#context'].value}}</h2>
-					<h3 class="lib-comp-carrousel__title">{{item.field_lib_v2_carousel_sec.0['#context'].value}}</h3>
-					<a href="{{item.field_lib_v2_carousel_link.0['#url_title']}}" class="lib-comp-button lib-comp-carrousel__button">{{item.field_lib_v2_carousel_link.0['#title']}}</a>
-				</div>
-				<div
-					class="lib-comp-carrousel__image">{# Image #}
+			<div class="lib-comp-carrousel__item">
+				<div class="lib-comp-carrousel__card">
+					<div class="lib-comp-carrousel__content">
+						<span>{{item.field_lib_v2_carousel_text_sup.0['#context'].value}}</span>
+						<h2 class="lib-comp-carrousel__title">{{item.field_lib_v2_carousel_text_main.0['#context'].value}}</h2>
+						<h3 class="lib-comp-carrousel__title">{{item.field_lib_v2_carousel_sec.0['#context'].value}}</h3>
+						<a href="{{item.field_lib_v2_carousel_link.0['#url_title']}}" class="lib-comp-button lib-comp-carrousel__button">{{item.field_lib_v2_carousel_link.0['#title']}}</a>
+					</div>
+					<div
+						class="lib-comp-carrousel__image">
+						{{item.field_lib_v2_carousel_image}}
+					</div>
 				</div>
 			</div>
-		</div>
 		{# End Items carrousel #}
 		{% endfor %}
 
@@ -53,6 +52,8 @@
 	<div
 		class="lib-comp-carrousel__nav">
 		{# circles #}
-		<span class="lib-comp-carrousel__circle"></span>
+		{% for key, item in content.field_lib_v2_carousel_group_ref if key|first != '#' %}
+			<span class="lib-comp-carrousel__circle">{{key}}</span>
+		{% endfor %}
 	</div>
 </div>

@@ -11,9 +11,11 @@ bundle: lib_v2_carousel
 mode: default
 content:
   field_lib_v2_carousel_group_ref:
-    type: entity_reference_entity_id
+    type: entity_reference_entity_view
     label: hidden
-    settings: {  }
+    settings:
+      view_mode: default
+      link: false
     third_party_settings: {  }
     weight: 0
     region: content
