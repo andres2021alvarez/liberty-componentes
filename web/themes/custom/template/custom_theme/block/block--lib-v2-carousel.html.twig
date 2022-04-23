@@ -1,25 +1,59 @@
+{#
+/**
+ * @file
+ * Theme override to display a block.
+ *
+ * Available variables:
+ * - plugin_id: The ID of the block implementation.
+ * - label: The configured label of the block if visible.
+ * - configuration: A list of the block's configuration values.
+ *   - label: The configured label for the block.
+ *   - label_display: The display settings for the label.
+ *   - provider: The module or other provider that provided this block plugin.
+ *   - Block plugin specific settings will also be stored here.
+ * - content: The content of this block.
+ * - attributes: array of HTML attributes populated by modules, intended to
+ *   be added to the main container tag of this template.
+ *   - id: A valid HTML ID and guaranteed unique.
+ * - title_attributes: Same as attributes, except applied to the main title
+ *   tag that appears in the template.
+ * - title_prefix: Additional output populated by modules, intended to be
+ *   displayed in front of the main title tag that appears in the template.
+ * - title_suffix: Additional output populated by modules, intended to be
+ *   displayed after the main title tag that appears in the template.
+ *
+ * @see template_preprocess_block()
+ */
+#}
+{# {{kint(content)}} #}
 <div class="lib-comp-carrousel">
-    <div class="lib-comp-carrousel__items">
-        
-        {# Items carrousel #}
-        <div class="lib-comp-carrousel__item">
-            <div class="lib-comp-carrousel__card">
-                <div class="lib-comp-carrousel__content">
-                    <h2 class="lib-comp-carrousel__title">Texto Principal</h2>
-                    <h3 class="lib-comp-carrousel__title">Texto Secundario</h3>
-                    <a href="#" class="lib-comp-button lib-comp-carrousel__button">Botón</a>
-                </div>
-                <div class="lib-comp-carrousel__image">
-                    {# Image #}
-                </div>
-            </div>
-        </div>
-        {# End Items carrousel #}
+	<div class="lib-comp-carrousel__items">
+		{% for key, item in content.field_lib_v2_carousel_group_ref if key|first != '#' %}
+		{# Items carrousel #}
+			<div class="lib-comp-carrousel__item">
+				<div class="lib-comp-carrousel__card">
+					<div class="lib-comp-carrousel__content">
+						<span>{{item.field_lib_v2_carousel_text_sup.0['#context'].value}}</span>
+						<h2 class="lib-comp-carrousel__title">{{item.field_lib_v2_carousel_text_main.0['#context'].value}}</h2>
+						<h3 class="lib-comp-carrousel__title">{{item.field_lib_v2_carousel_sec.0['#context'].value}}</h3>
+						<a href="{{item.field_lib_v2_carousel_link.0['#url_title']}}" class="lib-comp-button lib-comp-carrousel__button">{{item.field_lib_v2_carousel_link.0['#title']}}</a>
+					</div>
+					<div
+						class="lib-comp-carrousel__image">
+						{{item.field_lib_v2_carousel_image}}
+					</div>
+				</div>
+			</div>
+		{# End Items carrousel #}
+		{% endfor %}
 
-    </div>
+	</div>
 
-    <div class="lib-comp-carrousel__nav">
-        {# circles #}
-        <span class="lib-comp-carrousel__circle"></span>
-    </div>
+	<div
+		class="lib-comp-carrousel__nav">
+		{# circles #}
+		{% for key, item in content.field_lib_v2_carousel_group_ref if key|first != '#' %}
+			<span class="lib-comp-carrousel__circle">{{key}}</span>
+		{% endfor %}
+	</div>
 </div>
