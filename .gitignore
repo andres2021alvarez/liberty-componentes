@@ -2,7 +2,7 @@
 /bin
 
 # Ignore paths that contain user-generated content.
-/web/sites/default/files/
+/web/sites/default/files/*
 
 # Ignore build artifacts
 deployment_identifier
