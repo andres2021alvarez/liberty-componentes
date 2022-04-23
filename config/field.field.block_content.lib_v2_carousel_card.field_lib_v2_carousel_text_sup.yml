@@ -1,14 +1,14 @@
-uuid: 9e97a25a-a2a7-410a-be77-aa21db647401
+uuid: 678d6085-f251-4041-8b9b-6481135b1dcc
 langcode: es
 status: true
 dependencies:
   config:
-    - block_content.type.lib_v2_carousel
+    - block_content.type.lib_v2_carousel_card
     - field.storage.block_content.field_lib_v2_carousel_text_sup
-id: block_content.lib_v2_carousel.field_lib_v2_carousel_text_sup
+id: block_content.lib_v2_carousel_card.field_lib_v2_carousel_text_sup
 field_name: field_lib_v2_carousel_text_sup
 entity_type: block_content
-bundle: lib_v2_carousel
+bundle: lib_v2_carousel_card
 label: 'Texto apoyo'
 description: ''
 required: false

@@ -2,9 +2,7 @@ uuid: be12e277-44c9-4acb-bb2d-7b8dc166763f
 langcode: es
 status: true
 dependencies: {  }
-_core:
-  default_config_hash: 7zoBk92iQDUNjB-3qlUXkk4Tr1HdRgLac8gKKheDpjg
 id: lib_v2_carousel
 label: Carrusel
 revision: 0
-description: 'Carousel con imagen, texto y un botón de enlace a cualquier sitio activo.'
+description: 'Grupo de Card Carusel'

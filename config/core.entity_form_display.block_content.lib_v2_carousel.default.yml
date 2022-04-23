@@ -4,71 +4,30 @@ status: true
 dependencies:
   config:
     - block_content.type.lib_v2_carousel
-    - field.field.block_content.lib_v2_carousel.field_lib_v2_carousel_background
-    - field.field.block_content.lib_v2_carousel.field_lib_v2_carousel_image
-    - field.field.block_content.lib_v2_carousel.field_lib_v2_carousel_link
-    - field.field.block_content.lib_v2_carousel.field_lib_v2_carousel_link_color
-    - field.field.block_content.lib_v2_carousel.field_lib_v2_carousel_sec
-    - field.field.block_content.lib_v2_carousel.field_lib_v2_carousel_text_main
-    - field.field.block_content.lib_v2_carousel.field_lib_v2_carousel_text_sup
+    - field.field.block_content.lib_v2_carousel.field_lib_v2_carousel_group_ref
   module:
-    - link
-    - media_library
+    - inline_entity_form
 id: block_content.lib_v2_carousel.default
 targetEntityType: block_content
 bundle: lib_v2_carousel
 mode: default
 content:
-  field_lib_v2_carousel_background:
-    type: options_select
-    weight: 6
-    region: content
-    settings: {  }
-    third_party_settings: {  }
-  field_lib_v2_carousel_image:
-    type: media_library_widget
+  field_lib_v2_carousel_group_ref:
+    type: inline_entity_form_complex
     weight: 26
     region: content
     settings:
-      media_types: {  }
-    third_party_settings: {  }
-  field_lib_v2_carousel_link:
-    type: link_default
-    weight: 4
-    region: content
-    settings:
-      placeholder_url: ''
-      placeholder_title: ''
-    third_party_settings: {  }
-  field_lib_v2_carousel_link_color:
-    type: options_select
-    weight: 5
-    region: content
-    settings: {  }
-    third_party_settings: {  }
-  field_lib_v2_carousel_sec:
-    type: string_textfield
-    weight: 1
-    region: content
-    settings:
-      size: 60
-      placeholder: ''
-    third_party_settings: {  }
-  field_lib_v2_carousel_text_main:
-    type: string_textfield
-    weight: 0
-    region: content
-    settings:
-      size: 60
-      placeholder: ''
-    third_party_settings: {  }
-  field_lib_v2_carousel_text_sup:
-    type: string_textfield
-    weight: 2
-    region: content
-    settings:
-      size: 60
-      placeholder: ''
+      form_mode: default
+      override_labels: true
+      label_singular: Card
+      label_plural: Cards
+      allow_new: true
+      allow_existing: false
+      match_operator: CONTAINS
+      allow_duplicate: false
+      collapsible: false
+      collapsed: false
+      revision: false
     third_party_settings: {  }
 hidden:
   info: true
