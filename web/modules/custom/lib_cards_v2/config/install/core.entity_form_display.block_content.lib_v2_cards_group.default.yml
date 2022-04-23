@@ -8,6 +8,8 @@ dependencies:
     - field.field.block_content.lib_v2_cards_group.field_lib_v2_cards_group_ref
   module:
     - inline_entity_form
+_core:
+  default_config_hash: Obms5gahB49LggKAVqWJWIcM9vmaXST2-OaYBJihHTU
 id: block_content.lib_v2_cards_group.default
 targetEntityType: block_content
 bundle: lib_v2_cards_group
