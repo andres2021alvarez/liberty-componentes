@@ -19,7 +19,7 @@ private static $installed = array (
     'aliases' => 
     array (
     ),
-    'reference' => 'da836ef2176bba2125984691eaba8375db27894a',
+    'reference' => 'f3dda9b231ba9e0f5a88428d6d513c73c05c4019',
     'name' => 'drupal/recommended-project',
   ),
   'versions' => 
@@ -186,6 +186,15 @@ private static $installed = array (
       ),
       'reference' => '5b668aef16090008790395c02c893b1ba13f7e08',
     ),
+    'doctrine/cache' => 
+    array (
+      'pretty_version' => '1.12.1',
+      'version' => '1.12.1.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '4cf401d14df219fa6f38b671f5493449151c9ad8',
+    ),
     'doctrine/collections' => 
     array (
       'pretty_version' => '1.6.8',
@@ -195,6 +204,33 @@ private static $installed = array (
       ),
       'reference' => '1958a744696c6bb3bb0d28db2611dc11610e78af',
     ),
+    'doctrine/common' => 
+    array (
+      'pretty_version' => '2.13.3',
+      'version' => '2.13.3.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => 'f3812c026e557892c34ef37f6ab808a6b567da7f',
+    ),
+    'doctrine/event-manager' => 
+    array (
+      'pretty_version' => '1.1.1',
+      'version' => '1.1.1.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '41370af6a30faa9dc0368c4a6814d596e81aba7f',
+    ),
+    'doctrine/inflector' => 
+    array (
+      'pretty_version' => '1.4.4',
+      'version' => '1.4.4.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '4bd5c1cdfcd00e9e2d8c484f79150f67e5d355d9',
+    ),
     'doctrine/lexer' => 
     array (
       'pretty_version' => '1.2.1',
@@ -203,6 +239,15 @@ private static $installed = array (
       array (
       ),
       'reference' => 'e864bbf5904cb8f5bb334f99209b48018522f042',
+    ),
+    'doctrine/persistence' => 
+    array (
+      'pretty_version' => '1.3.8',
+      'version' => '1.3.8.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '7a6eac9fb6f61bba91328f15aa7547f4806ca288',
     ),
     'doctrine/reflection' => 
     array (
@@ -651,6 +696,15 @@ private static $installed = array (
         0 => '9.3.12',
       ),
     ),
+    'drupal/devel' => 
+    array (
+      'pretty_version' => '4.1.5',
+      'version' => '4.1.5.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '4.1.5',
+    ),
     'drupal/dynamic_page_cache' => 
     array (
       'replaced' => 
@@ -924,7 +978,7 @@ private static $installed = array (
       'aliases' => 
       array (
       ),
-      'reference' => 'da836ef2176bba2125984691eaba8375db27894a',
+      'reference' => 'f3dda9b231ba9e0f5a88428d6d513c73c05c4019',
     ),
     'drupal/responsive_image' => 
     array (
@@ -1156,6 +1210,15 @@ private static $installed = array (
       array (
       ),
       'reference' => '337e3ad8e5716c15f9657bd214d16cc5e69df268',
+    ),
+    'kint-php/kint' => 
+    array (
+      'pretty_version' => '4.1.2',
+      'version' => '4.1.2.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => 'fa53c4333cda79dc9cb002cfa029abe994d0ae00',
     ),
     'laminas/laminas-diactoros' => 
     array (

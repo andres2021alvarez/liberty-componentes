@@ -1,0 +1,19 @@
+uuid: 5c4a6203-a0ac-41d8-93f2-33694ab22e1b
+langcode: es
+status: true
+dependencies:
+  config:
+    - block_content.type.lib_v2_carousel
+    - field.storage.block_content.field_lib_v2_carousel_text_main
+id: block_content.lib_v2_carousel.field_lib_v2_carousel_text_main
+field_name: field_lib_v2_carousel_text_main
+entity_type: block_content
+bundle: lib_v2_carousel
+label: 'Texto principal'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string
