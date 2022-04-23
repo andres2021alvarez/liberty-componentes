@@ -7,6 +7,8 @@ dependencies:
     - field.storage.block_content.body
   module:
     - text
+_core:
+  default_config_hash: HZl3SIITSiU6WqmfvrUsO_He7YViS-QnTbhbFFGengI
 id: block_content.lib_v2_carousel.body
 field_name: body
 entity_type: block_content

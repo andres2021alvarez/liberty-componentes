@@ -28,8 +28,8 @@ module:
   help: 0
   history: 0
   image: 0
+  inline_entity_form: 0
   language: 0
-  lib_carousel_v2: 0
   link: 0
   locale: 0
   menu_link_content: 0

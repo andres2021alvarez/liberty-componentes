@@ -1,0 +1,8 @@
+uuid: 4b7f058e-0636-4a90-bd36-8f724fdaf86a
+langcode: es
+status: true
+dependencies: {  }
+id: lib_v2_cards
+label: Tarjetas
+revision: 0
+description: ''

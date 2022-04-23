@@ -6,6 +6,8 @@ dependencies:
     - block_content
     - file
     - image
+_core:
+  default_config_hash: YGYOdvDrIlMpv6o5qN0caZovlRZMtbZglxlNFr99_kY
 id: block_content.field_lib_v2_carousel_image
 field_name: field_lib_v2_carousel_image
 entity_type: block_content

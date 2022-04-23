@@ -9,6 +9,8 @@ dependencies:
   module:
     - image
     - text
+_core:
+  default_config_hash: YldG6Go8WlZNQTXLbsg5_zrbt1NQX2Cb88SCNQAs31g
 id: block_content.lib_v2_carousel.default
 targetEntityType: block_content
 bundle: lib_v2_carousel

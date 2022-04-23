@@ -7,6 +7,8 @@ dependencies:
     - field.storage.block_content.field_lib_v2_carousel_image
   module:
     - image
+_core:
+  default_config_hash: JEcLpWwnyWY8ZaLVAa_iQN4CLBjvb-NjsK3ZY90ZsmM
 id: block_content.lib_v2_carousel.field_lib_v2_carousel_image
 field_name: field_lib_v2_carousel_image
 entity_type: block_content
