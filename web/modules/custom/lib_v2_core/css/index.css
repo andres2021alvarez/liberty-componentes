@@ -16,3 +16,7 @@
     text-decoration: none;
     color: var(--primary-color);
 }
+
+.lib-comp-button__yellow {
+    background: var(--yellow-color);
+}
