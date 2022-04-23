@@ -11,7 +11,7 @@ dependencies:
 id: carrusel1_2
 theme: custom_theme
 region: content
-weight: -1
+weight: -2
 provider: null
 plugin: 'block_content:2ad4e613-38f4-43bc-8c0a-314de488f2f6'
 settings:
