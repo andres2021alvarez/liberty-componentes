@@ -8,10 +8,9 @@ dependencies:
     - field.field.block_content.lib_v2_cards.field_lib_v2_cards_image
     - field.field.block_content.lib_v2_cards.field_lib_v2_cards_link
     - field.field.block_content.lib_v2_cards.field_lib_v2_cards_title
-    - image.style.thumbnail
   module:
-    - image
     - link
+    - media_library
 _core:
   default_config_hash: SJ0AFSB2JtvCZBPA6D4MkQTjf6AasHsABsYpzYrEAqE
 id: block_content.lib_v2_cards.default
@@ -28,12 +27,11 @@ content:
       placeholder: ''
     third_party_settings: {  }
   field_lib_v2_cards_image:
-    type: image_image
-    weight: 2
+    type: media_library_widget
+    weight: 26
     region: content
     settings:
-      progress_indicator: throbber
-      preview_image_style: thumbnail
+      media_types: {  }
     third_party_settings: {  }
   field_lib_v2_cards_link:
     type: link_default

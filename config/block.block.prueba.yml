@@ -1,0 +1,25 @@
+uuid: b6aad315-0297-4048-97c2-a35bd82fbf23
+langcode: es
+status: true
+dependencies:
+  content:
+    - 'block_content:lib_v2_cards_group:07c1020d-1f58-4bd3-aaae-e08fa5a7c31c'
+  module:
+    - block_content
+  theme:
+    - custom_theme
+id: prueba
+theme: custom_theme
+region: content
+weight: 0
+provider: null
+plugin: 'block_content:07c1020d-1f58-4bd3-aaae-e08fa5a7c31c'
+settings:
+  id: 'block_content:07c1020d-1f58-4bd3-aaae-e08fa5a7c31c'
+  label: prueba
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

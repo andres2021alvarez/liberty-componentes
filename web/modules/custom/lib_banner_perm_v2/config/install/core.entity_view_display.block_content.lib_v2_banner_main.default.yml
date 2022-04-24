@@ -11,7 +11,6 @@ dependencies:
     - field.field.block_content.lib_v2_banner_main.field_lib_v2_banner_main_link_co
     - field.field.block_content.lib_v2_banner_main.field_lib_v2_banner_main_subhead
   module:
-    - image
     - link
     - options
 id: block_content.lib_v2_banner_main.default
@@ -35,13 +34,13 @@ content:
     weight: 1
     region: content
   field_lib_v2_banner_main_image:
-    type: image
+    type: entity_reference_entity_view
     label: hidden
     settings:
-      image_link: ''
-      image_style: ''
+      view_mode: default
+      link: false
     third_party_settings: {  }
-    weight: 0
+    weight: 6
     region: content
   field_lib_v2_banner_main_link:
     type: link

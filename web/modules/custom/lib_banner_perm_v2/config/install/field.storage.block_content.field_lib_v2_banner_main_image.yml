@@ -1,27 +1,17 @@
-uuid: 3a743bce-cd2e-486f-94d8-0377967e6590
+uuid: 6211c5fe-a7bb-412b-910d-d7e28ae50c0e
 langcode: es
 status: true
 dependencies:
   module:
     - block_content
-    - file
-    - image
+    - media
 id: block_content.field_lib_v2_banner_main_image
 field_name: field_lib_v2_banner_main_image
 entity_type: block_content
-type: image
+type: entity_reference
 settings:
-  target_type: file
-  display_field: false
-  display_default: false
-  uri_scheme: public
-  default_image:
-    uuid: ''
-    alt: ''
-    title: ''
-    width: null
-    height: null
-module: image
+  target_type: media
+module: core
 locked: false
 cardinality: 1
 translatable: true

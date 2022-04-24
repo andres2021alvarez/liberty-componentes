@@ -10,10 +10,9 @@ dependencies:
     - field.field.block_content.lib_v2_banner_main.field_lib_v2_banner_main_link
     - field.field.block_content.lib_v2_banner_main.field_lib_v2_banner_main_link_co
     - field.field.block_content.lib_v2_banner_main.field_lib_v2_banner_main_subhead
-    - image.style.large
   module:
-    - image
     - link
+    - media_library
 id: block_content.lib_v2_banner_main.default
 targetEntityType: block_content
 bundle: lib_v2_banner_main
@@ -34,12 +33,11 @@ content:
       placeholder: ''
     third_party_settings: {  }
   field_lib_v2_banner_main_image:
-    type: image_image
-    weight: 26
+    type: media_library_widget
+    weight: 32
     region: content
     settings:
-      progress_indicator: throbber
-      preview_image_style: large
+      media_types: {  }
     third_party_settings: {  }
   field_lib_v2_banner_main_link:
     type: link_default
