@@ -1,0 +1,21 @@
+uuid: 17114fe2-5815-42aa-b5d5-d7ebe0e5efd4
+langcode: es
+status: true
+dependencies:
+  config:
+    - core.entity_form_mode.media.media_library
+    - field.field.media.svg_media.field_media_svg
+    - media.type.svg_media
+id: media.svg_media.media_library
+targetEntityType: media
+bundle: svg_media
+mode: media_library
+content: {  }
+hidden:
+  created: true
+  field_media_svg: true
+  langcode: true
+  name: true
+  path: true
+  status: true
+  uid: true

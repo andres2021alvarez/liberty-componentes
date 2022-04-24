@@ -1,0 +1,31 @@
+uuid: de57b5fa-aac6-4e48-b5c7-44a104477ec5
+langcode: es
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.media.media_library
+    - field.field.media.svg_media.field_media_svg
+    - image.style.medium
+    - media.type.svg_media
+  module:
+    - image
+id: media.svg_media.media_library
+targetEntityType: media
+bundle: svg_media
+mode: media_library
+content:
+  thumbnail:
+    type: image
+    label: hidden
+    settings:
+      image_link: ''
+      image_style: medium
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  created: true
+  field_media_svg: true
+  langcode: true
+  name: true
+  uid: true
