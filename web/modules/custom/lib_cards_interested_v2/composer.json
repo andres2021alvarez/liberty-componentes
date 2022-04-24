@@ -1,0 +1,13 @@
+{
+    "name": "lib_cards_interested_v2",
+    "type": "drupal-module",
+    "description": "Cards, you may be interested",
+    "keywords": [
+    ],
+    "homepage": "https://www.drupal.org/project/lib_cards_interested_v2",
+    "minimum-stability": "dev",
+    "support": {
+        "issues": "https://www.drupal.org/project/issues/lib_cards_interested_v2",
+        "source": "http://cgit.drupalcode.org/lib_cards_interested_v2",
+    },
+}

@@ -1,0 +1,10 @@
+uuid: 1f812f2f-57ff-460c-a8b8-7c92eaeda6ec
+langcode: es
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: FngJ3o7ceRzg-2cM83gRh0WACQ_92pt0xqr50LHIJzs
+id: lib_v2_cards_interested_group
+label: 'Grupo de tarjetas te puede interesar'
+revision: 0
+description: 'Adiciona grupo de tarjetas te puede interesar'

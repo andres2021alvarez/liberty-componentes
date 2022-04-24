@@ -1,4 +1,4 @@
-uuid: 96a2f937-dd0b-4d79-ad9a-db5e9434d0b1
+uuid: d16d187e-eca0-4169-9133-78513f95baae
 langcode: es
 status: true
 dependencies:
@@ -9,7 +9,7 @@ _core:
 id: custom_theme_page_title
 theme: custom_theme
 region: content
-weight: -7
+weight: -8
 provider: null
 plugin: page_title_block
 settings:

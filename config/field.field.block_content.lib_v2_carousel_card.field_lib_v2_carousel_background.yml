@@ -7,13 +7,15 @@ dependencies:
     - field.storage.block_content.field_lib_v2_carousel_background
   module:
     - options
+_core:
+  default_config_hash: AoARz4GEJm_abxAq4RpopNrR21_3dPmAHSOulbYTkkw
 id: block_content.lib_v2_carousel_card.field_lib_v2_carousel_background
 field_name: field_lib_v2_carousel_background
 entity_type: block_content
 bundle: lib_v2_carousel_card
 label: Fondo
 description: ''
-required: true
+required: false
 translatable: false
 default_value:
   -

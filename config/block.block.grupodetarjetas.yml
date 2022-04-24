@@ -1,0 +1,25 @@
+uuid: 522f0435-1712-4a5e-81c2-f74c62a35ec4
+langcode: es
+status: true
+dependencies:
+  content:
+    - 'block_content:lib_v2_cards_group:b214a51e-1997-4ac1-bd5a-f0bb0f4d5ce6'
+  module:
+    - block_content
+  theme:
+    - custom_theme
+id: grupodetarjetas
+theme: custom_theme
+region: content
+weight: -3
+provider: null
+plugin: 'block_content:b214a51e-1997-4ac1-bd5a-f0bb0f4d5ce6'
+settings:
+  id: 'block_content:b214a51e-1997-4ac1-bd5a-f0bb0f4d5ce6'
+  label: 'Grupo de tarjetas'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

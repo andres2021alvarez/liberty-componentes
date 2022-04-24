@@ -1,0 +1,25 @@
+uuid: 3874a82e-cb5e-4ed8-8c66-3344367d921f
+langcode: es
+status: true
+dependencies:
+  content:
+    - 'block_content:lib_v2_carousel:b88f2d0c-80cf-4bb3-a16c-69006b3a4f99'
+  module:
+    - block_content
+  theme:
+    - custom_theme
+id: carrusel
+theme: custom_theme
+region: content
+weight: -4
+provider: null
+plugin: 'block_content:b88f2d0c-80cf-4bb3-a16c-69006b3a4f99'
+settings:
+  id: 'block_content:b88f2d0c-80cf-4bb3-a16c-69006b3a4f99'
+  label: 'Carrusel '
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

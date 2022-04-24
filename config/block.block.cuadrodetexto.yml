@@ -1,0 +1,25 @@
+uuid: b6f2d3fb-7b45-4f1a-a394-cbc4f2d35ae0
+langcode: es
+status: true
+dependencies:
+  content:
+    - 'block_content:lib_v2_text_box:05d40b04-8915-405d-8dcf-ae2049eb9541'
+  module:
+    - block_content
+  theme:
+    - custom_theme
+id: cuadrodetexto
+theme: custom_theme
+region: content
+weight: 0
+provider: null
+plugin: 'block_content:05d40b04-8915-405d-8dcf-ae2049eb9541'
+settings:
+  id: 'block_content:05d40b04-8915-405d-8dcf-ae2049eb9541'
+  label: 'Cuadro de texto'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

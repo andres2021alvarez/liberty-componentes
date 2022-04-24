@@ -1,0 +1,19 @@
+uuid: 3a820435-e5c5-4799-a273-3f07e18c1b71
+langcode: es
+status: true
+dependencies:
+  module:
+    - block_content
+    - link
+id: block_content.field_lib_v2_cards_interested_li
+field_name: field_lib_v2_cards_interested_li
+entity_type: block_content
+type: link
+settings: {  }
+module: link
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

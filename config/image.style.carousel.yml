@@ -2,6 +2,8 @@ uuid: 2f16fb99-785e-4462-9425-cbc21d5447cf
 langcode: es
 status: true
 dependencies: {  }
+_core:
+  default_config_hash: McTMsY28GaHoQSR-qhebPMbmna4tQK50UiPGQj-VcH8
 name: carousel
 label: Carousel
 effects:

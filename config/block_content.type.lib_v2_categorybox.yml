@@ -1,0 +1,10 @@
+uuid: 4b7b34e4-793e-4287-97e8-07ca43f141a0
+langcode: es
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: Xh3G5KAmVvTiBk4-ypSIDyn5QS2l_sghmPNaqWcNkvw
+id: lib_v2_categorybox
+label: 'Caja de categorias'
+revision: 0
+description: 'Componente de caja de pestañas con categorias v2'

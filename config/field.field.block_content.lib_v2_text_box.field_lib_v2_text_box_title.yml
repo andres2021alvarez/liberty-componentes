@@ -5,6 +5,8 @@ dependencies:
   config:
     - block_content.type.lib_v2_text_box
     - field.storage.block_content.field_lib_v2_text_box_title
+_core:
+  default_config_hash: VdIkEjrxchtvkbvY6lZzvmWXI6TlC9PQaDwttpw0QeA
 id: block_content.lib_v2_text_box.field_lib_v2_text_box_title
 field_name: field_lib_v2_text_box_title
 entity_type: block_content

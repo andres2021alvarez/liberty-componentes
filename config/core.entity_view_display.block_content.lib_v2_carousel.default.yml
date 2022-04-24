@@ -5,6 +5,8 @@ dependencies:
   config:
     - block_content.type.lib_v2_carousel
     - field.field.block_content.lib_v2_carousel.field_lib_v2_carousel_group_ref
+_core:
+  default_config_hash: YmMjwT8ZnCVb1_lHgpW6B5p-i9Ellc2p_KQH7VZBrvo
 id: block_content.lib_v2_carousel.default
 targetEntityType: block_content
 bundle: lib_v2_carousel

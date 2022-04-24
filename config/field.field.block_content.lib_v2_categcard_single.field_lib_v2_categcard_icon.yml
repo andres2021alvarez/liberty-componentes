@@ -1,0 +1,31 @@
+uuid: 03a49dd4-5d2c-46a0-acfa-df03fae9cabe
+langcode: es
+status: true
+dependencies:
+  config:
+    - block_content.type.lib_v2_categcard_single
+    - field.storage.block_content.field_lib_v2_categcard_icon
+    - media.type.svg_media
+_core:
+  default_config_hash: HBKf3WUHPVquqTLA0wTfmVWCPimBDz2D2h6PT-9K-w4
+id: block_content.lib_v2_categcard_single.field_lib_v2_categcard_icon
+field_name: field_lib_v2_categcard_icon
+entity_type: block_content
+bundle: lib_v2_categcard_single
+label: Icono
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      svg_media: svg_media
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

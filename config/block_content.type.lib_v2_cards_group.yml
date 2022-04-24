@@ -1,0 +1,10 @@
+uuid: d3646171-87ac-4130-b68a-4c38698c17d3
+langcode: es
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: ug8ws36lEDrRetn8Eh7bjzN6Hv0CfCdk2UtYo83zM9E
+id: lib_v2_cards_group
+label: 'Grupo de tarjetas'
+revision: 0
+description: 'Componente que agrupa las tarjetas v2'

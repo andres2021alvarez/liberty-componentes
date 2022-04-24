@@ -4,6 +4,8 @@ status: true
 dependencies:
   config:
     - block_content.type.lib_v2_carousel
+_core:
+  default_config_hash: BrHiUEvEZc6CrpE0nIzGGKZV_EvTWpJbov3f5iT4z4c
 id: block_content.lib_v2_carousel
 target_entity_type_id: block_content
 target_bundle: lib_v2_carousel

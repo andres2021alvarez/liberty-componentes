@@ -1,0 +1,25 @@
+uuid: a664e378-f303-4bf8-bc56-2463c1c1451c
+langcode: es
+status: true
+dependencies:
+  content:
+    - 'block_content:lib_v2_questions_frequent:ca5e2cfc-db42-417b-aaf4-2060ab2f55b2'
+  module:
+    - block_content
+  theme:
+    - custom_theme
+id: preguntafrecuentes
+theme: custom_theme
+region: content
+weight: -2
+provider: null
+plugin: 'block_content:ca5e2cfc-db42-417b-aaf4-2060ab2f55b2'
+settings:
+  id: 'block_content:ca5e2cfc-db42-417b-aaf4-2060ab2f55b2'
+  label: 'pregunta frecuentes'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

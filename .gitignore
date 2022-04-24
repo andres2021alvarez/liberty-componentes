@@ -91,10 +91,6 @@ nbproject/*
 # DevDesktop
 *.dd
 
-#Exports
-*.gz
-*.sql
-*.zip
 
 # PHPStorm
 atlassian-ide-plugin.xml

@@ -2,6 +2,8 @@ uuid: 6d8698f2-2c81-4b43-b82d-08cf6b07f101
 langcode: es
 status: true
 dependencies: {  }
+_core:
+  default_config_hash: hIdCmJDjjqEZsywYX3DGqM4hnLFes21FGOC5nDGuXEg
 id: lib_v2_carousel_card
 label: 'Card Carrusel'
 revision: 0

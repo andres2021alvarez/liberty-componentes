@@ -1,8 +1,0 @@
-uuid: 01b152ad-2a92-4ee5-88f8-5df43a94ac95
-langcode: es
-status: true
-dependencies: {  }
-id: lib_v2_categorybox
-label: 'Caja de categorias'
-revision: 0
-description: 'Componente de caja de pestañas con categorias v2'

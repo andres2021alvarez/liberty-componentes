@@ -1,9 +1,11 @@
-uuid: 59b80edb-4adc-4765-a586-c511d68e074a
+uuid: db47d55b-b3b2-418b-8f45-715ed1b6a88c
 langcode: es
 status: true
 dependencies:
   config:
     - block_content.type.lib_v2_text_warning
+_core:
+  default_config_hash: uu2JqpxtL2JXVk6g0K7V-u-bmOHQeQilpSos522OXkQ
 id: block_content.lib_v2_text_warning
 target_entity_type_id: block_content
 target_bundle: lib_v2_text_warning

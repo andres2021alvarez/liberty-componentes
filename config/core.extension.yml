@@ -3,7 +3,6 @@ _core:
 langcode: es
 module:
   admin_toolbar: 0
-  admin_toolbar_links_access_filter: 0
   admin_toolbar_search: 0
   admin_toolbar_tools: 0
   automated_cron: 0
@@ -19,7 +18,6 @@ module:
   contextual: 0
   datetime: 0
   dblog: 0
-  devel: 0
   dynamic_page_cache: 0
   editor: 0
   field: 0
@@ -31,8 +29,15 @@ module:
   image: 0
   inline_entity_form: 0
   language: 0
+  lib_banner_perm_v2: 0
+  lib_cards_interested_v2: 0
+  lib_cards_v2: 0
   lib_carousel_v2: 0
+  lib_category_box_v2: 0
   lib_v2_core: 0
+  lib_v2_questions_frequent: 0
+  lib_v2_text_box: 0
+  lib_v2_text_warning: 0
   link: 0
   locale: 0
   media: 0

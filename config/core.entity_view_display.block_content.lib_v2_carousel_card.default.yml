@@ -11,11 +11,11 @@ dependencies:
     - field.field.block_content.lib_v2_carousel_card.field_lib_v2_carousel_sec
     - field.field.block_content.lib_v2_carousel_card.field_lib_v2_carousel_text_main
     - field.field.block_content.lib_v2_carousel_card.field_lib_v2_carousel_text_sup
-    - image.style.carousel
   module:
     - link
-    - media
     - options
+_core:
+  default_config_hash: mo3nY5G1iMMupI4PgKFGgDRlIwVUk81p_oTB90rOqPY
 id: block_content.lib_v2_carousel_card.default
 targetEntityType: block_content
 bundle: lib_v2_carousel_card
@@ -29,11 +29,11 @@ content:
     weight: 8
     region: content
   field_lib_v2_carousel_image:
-    type: media_thumbnail
+    type: entity_reference_entity_view
     label: hidden
     settings:
-      image_link: ''
-      image_style: carousel
+      view_mode: default
+      link: false
     third_party_settings: {  }
     weight: 2
     region: content

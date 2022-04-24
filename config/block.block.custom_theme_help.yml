@@ -1,4 +1,4 @@
-uuid: 3be2433f-c126-45a6-bfb9-9b03249b7ef2
+uuid: 8a1f728c-d632-460e-841e-d07c41745f2d
 langcode: es
 status: true
 dependencies:
@@ -11,7 +11,7 @@ _core:
 id: custom_theme_help
 theme: custom_theme
 region: content
-weight: -5
+weight: -6
 provider: null
 plugin: help_block
 settings:

@@ -1,0 +1,23 @@
+uuid: 57821b37-b3f6-401b-8841-5826b4a28d41
+langcode: es
+status: true
+dependencies:
+  config:
+    - block_content.type.lib_v2_cards_interested_group
+    - field.field.block_content.lib_v2_cards_interested_group.field_lib_v2_cards_interested_gr
+id: block_content.lib_v2_cards_interested_group.default
+targetEntityType: block_content
+bundle: lib_v2_cards_interested_group
+mode: default
+content:
+  field_lib_v2_cards_interested_gr:
+    type: entity_reference_entity_view
+    label: hidden
+    settings:
+      view_mode: default
+      link: true
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  langcode: true

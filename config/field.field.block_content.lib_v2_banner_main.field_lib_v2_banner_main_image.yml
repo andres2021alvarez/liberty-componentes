@@ -1,0 +1,31 @@
+uuid: 16a593cc-48d0-4584-9b2d-acb07b6637c0
+langcode: es
+status: true
+dependencies:
+  config:
+    - block_content.type.lib_v2_banner_main
+    - field.storage.block_content.field_lib_v2_banner_main_image
+    - media.type.image
+_core:
+  default_config_hash: pF-fVkdKaNbXmzgJopgKTl3Z6fD4sqere6DwGOB9j_Y
+id: block_content.lib_v2_banner_main.field_lib_v2_banner_main_image
+field_name: field_lib_v2_banner_main_image
+entity_type: block_content
+bundle: lib_v2_banner_main
+label: Imagen
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      image: image
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

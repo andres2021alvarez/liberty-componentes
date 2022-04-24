@@ -1,0 +1,22 @@
+uuid: 6211c5fe-a7bb-412b-910d-d7e28ae50c0e
+langcode: es
+status: true
+dependencies:
+  module:
+    - block_content
+    - media
+_core:
+  default_config_hash: jgaovpRlsejcjzPm_JRyrIEtjd2hXE6oRb96OWkgAKA
+id: block_content.field_lib_v2_banner_main_image
+field_name: field_lib_v2_banner_main_image
+entity_type: block_content
+type: entity_reference
+settings:
+  target_type: media
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

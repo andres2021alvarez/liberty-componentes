@@ -1,4 +1,4 @@
-uuid: b12bc2e3-fbba-495e-a48a-113d324fb091
+uuid: 25d35215-0067-4000-9e18-8c8252d6283b
 langcode: es
 status: true
 dependencies:
@@ -6,8 +6,8 @@ dependencies:
     - block_content.type.lib_v2_text_warning
     - field.field.block_content.lib_v2_text_warning.field_lib_v2_image_icon
     - field.field.block_content.lib_v2_text_warning.field_lib_v2_text
-  module:
-    - text
+_core:
+  default_config_hash: aXI_Ph1MDoQgWnKCbB_hsWLMIFhDqpL7YqNhl6QEP0I
 id: block_content.lib_v2_text_warning.default
 targetEntityType: block_content
 bundle: lib_v2_text_warning
@@ -23,9 +23,10 @@ content:
     weight: 0
     region: content
   field_lib_v2_text:
-    type: text_default
+    type: string
     label: hidden
-    settings: {  }
+    settings:
+      link_to_entity: false
     third_party_settings: {  }
     weight: 1
     region: content
