@@ -1,0 +1,8 @@
+uuid: c4921227-156f-4526-a7c6-1b7ccbeda566
+langcode: es
+status: true
+dependencies: {  }
+id: lib_v2_categcard_single
+label: 'Tarjeta simple'
+revision: 0
+description: 'tarjeta simple para caja de categorias'

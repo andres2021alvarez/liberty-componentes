@@ -1,22 +1,22 @@
-uuid: bb75bac4-2cd1-4f92-a4b4-cf2f0003e589
+uuid: 6aaf0784-5342-46ef-90be-a28a7c8e1060
 langcode: es
 status: true
 dependencies:
   content:
-    - 'block_content:lib_v2_text_box:adc39d1b-fbb8-4f25-9186-a32c43442af6'
+    - 'block_content:lib_v2_categorybox:2459bc6b-fa79-4141-8c82-31a85184e634'
   module:
     - block_content
   theme:
     - custom_theme
-id: cuadrodetexto
+id: categir
 theme: custom_theme
 region: content
 weight: 0
 provider: null
-plugin: 'block_content:adc39d1b-fbb8-4f25-9186-a32c43442af6'
+plugin: 'block_content:2459bc6b-fa79-4141-8c82-31a85184e634'
 settings:
-  id: 'block_content:adc39d1b-fbb8-4f25-9186-a32c43442af6'
-  label: 'Cuadro de texto'
+  id: 'block_content:2459bc6b-fa79-4141-8c82-31a85184e634'
+  label: categir
   label_display: visible
   provider: block_content
   status: true
