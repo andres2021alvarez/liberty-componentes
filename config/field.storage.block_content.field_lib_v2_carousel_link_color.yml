@@ -20,6 +20,9 @@ settings:
     -
       value: yellow
       label: Amarillo
+    -
+      value: light-blue
+      label: Celeste
   allowed_values_function: ''
 module: options
 locked: false

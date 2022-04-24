@@ -11,8 +11,10 @@ dependencies:
     - field.field.block_content.lib_v2_carousel_card.field_lib_v2_carousel_sec
     - field.field.block_content.lib_v2_carousel_card.field_lib_v2_carousel_text_main
     - field.field.block_content.lib_v2_carousel_card.field_lib_v2_carousel_text_sup
+    - image.style.carousel
   module:
     - link
+    - media
     - options
 id: block_content.lib_v2_carousel_card.default
 targetEntityType: block_content
@@ -27,9 +29,11 @@ content:
     weight: 8
     region: content
   field_lib_v2_carousel_image:
-    type: entity_reference_entity_id
+    type: media_thumbnail
     label: hidden
-    settings: {  }
+    settings:
+      image_link: ''
+      image_style: carousel
     third_party_settings: {  }
     weight: 2
     region: content
