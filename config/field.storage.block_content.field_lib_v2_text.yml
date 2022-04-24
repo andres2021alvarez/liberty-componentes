@@ -1,0 +1,19 @@
+uuid: efd3138c-08b2-4002-93ca-e08e9422b0e8
+langcode: es
+status: true
+dependencies:
+  module:
+    - block_content
+    - text
+id: block_content.field_lib_v2_text
+field_name: field_lib_v2_text
+entity_type: block_content
+type: text_long
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

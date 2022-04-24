@@ -1,29 +1,17 @@
-uuid: 7712e637-19b4-485e-b2db-a900a6942712
+uuid: c8bc19ec-0230-4d4f-9357-db5d88f72e49
 langcode: es
 status: true
 dependencies:
   module:
     - block_content
-    - file
-    - image
-_core:
-  default_config_hash: '-IOwL4Z_fvcy28UO50UnTFjBrNgz-QOmxVbHbRUrIaA'
+    - media
 id: block_content.field_lib_v2_cards_image
 field_name: field_lib_v2_cards_image
 entity_type: block_content
-type: image
+type: entity_reference
 settings:
-  target_type: file
-  display_field: false
-  display_default: false
-  uri_scheme: public
-  default_image:
-    uuid: ''
-    alt: ''
-    title: ''
-    width: null
-    height: null
-module: image
+  target_type: media
+module: core
 locked: false
 cardinality: 1
 translatable: true

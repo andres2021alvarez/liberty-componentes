@@ -31,7 +31,6 @@ module:
   image: 0
   inline_entity_form: 0
   language: 0
-  lib_cards_v2: 0
   lib_carousel_v2: 0
   lib_v2_core: 0
   lib_v2_questions_frequent: 0
@@ -49,6 +48,7 @@ module:
   rdf: 0
   search: 0
   shortcut: 0
+  svg_image_field: 0
   system: 0
   taxonomy: 0
   text: 0

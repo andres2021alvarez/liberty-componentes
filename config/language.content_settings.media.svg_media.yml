@@ -1,0 +1,11 @@
+uuid: 3a9cffcf-c54e-4886-a783-70e2a46d7d28
+langcode: es
+status: true
+dependencies:
+  config:
+    - media.type.svg_media
+id: media.svg_media
+target_entity_type_id: media
+target_bundle: svg_media
+default_langcode: site_default
+language_alterable: false

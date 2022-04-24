@@ -33,3 +33,15 @@ function lib_category_box_v2_theme() {
     ],
   ];
 }
+
+/**
+ * Implements hook_theme_suggestions_block_alter().
+ */
+function lib_category_box_v2_theme_suggestions_block_alter(array &$suggestions, array $variables, $hook)
+{
+    if (isset($variables['elements']['content']['#block_content'])) {
+        array_splice($suggestions, 1, 0, 'block__' . $variables['elements']['content']['#block_content']->bundle());
+    }
+}
+
+

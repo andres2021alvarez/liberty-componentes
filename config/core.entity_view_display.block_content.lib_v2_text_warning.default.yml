@@ -1,0 +1,33 @@
+uuid: b12bc2e3-fbba-495e-a48a-113d324fb091
+langcode: es
+status: true
+dependencies:
+  config:
+    - block_content.type.lib_v2_text_warning
+    - field.field.block_content.lib_v2_text_warning.field_lib_v2_image_icon
+    - field.field.block_content.lib_v2_text_warning.field_lib_v2_text
+  module:
+    - text
+id: block_content.lib_v2_text_warning.default
+targetEntityType: block_content
+bundle: lib_v2_text_warning
+mode: default
+content:
+  field_lib_v2_image_icon:
+    type: entity_reference_entity_view
+    label: hidden
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_lib_v2_text:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden:
+  langcode: true
