@@ -31,7 +31,6 @@ module:
   image: 0
   inline_entity_form: 0
   language: 0
-  lib_cards_v2: 0
   lib_carousel_v2: 0
   lib_v2_core: 0
   link: 0

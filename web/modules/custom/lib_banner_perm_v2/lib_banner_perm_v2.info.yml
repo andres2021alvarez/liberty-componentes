@@ -1,5 +1,5 @@
 name: 'Lib banner perm v2'
 type: module
 description: 'Main banner v2'
-core: 8.x
+core_version_requirement: ^8 || ^9
 package: 'Esinergia'
