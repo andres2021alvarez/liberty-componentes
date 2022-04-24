@@ -1,0 +1,27 @@
+uuid: 88cc146d-4619-4841-bc3c-46934c9b42b2
+langcode: es
+status: true
+dependencies:
+  config:
+    - block_content.type.lib_v2_text_warning
+id: block_content.lib_v2_text_warning.default
+targetEntityType: block_content
+bundle: lib_v2_text_warning
+mode: default
+content:
+  info:
+    type: string_textfield
+    weight: -5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  langcode:
+    type: language_select
+    weight: 2
+    region: content
+    settings:
+      include_locked: true
+    third_party_settings: {  }
+hidden: {  }

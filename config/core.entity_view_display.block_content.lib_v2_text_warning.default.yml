@@ -1,0 +1,13 @@
+uuid: b12bc2e3-fbba-495e-a48a-113d324fb091
+langcode: es
+status: true
+dependencies:
+  config:
+    - block_content.type.lib_v2_text_warning
+id: block_content.lib_v2_text_warning.default
+targetEntityType: block_content
+bundle: lib_v2_text_warning
+mode: default
+content: {  }
+hidden:
+  langcode: true
