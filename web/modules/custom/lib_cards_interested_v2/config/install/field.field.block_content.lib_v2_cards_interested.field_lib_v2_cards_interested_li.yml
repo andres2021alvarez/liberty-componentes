@@ -1,0 +1,23 @@
+uuid: 23e1ca58-4f71-4581-ac1f-4b0f91674a66
+langcode: es
+status: true
+dependencies:
+  config:
+    - block_content.type.lib_v2_cards_interested
+    - field.storage.block_content.field_lib_v2_cards_interested_li
+  module:
+    - link
+id: block_content.lib_v2_cards_interested.field_lib_v2_cards_interested_li
+field_name: field_lib_v2_cards_interested_li
+entity_type: block_content
+bundle: lib_v2_cards_interested
+label: 'Titulo con enlace'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  title: 1
+  link_type: 17
+field_type: link

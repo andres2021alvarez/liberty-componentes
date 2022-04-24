@@ -1,0 +1,10 @@
+uuid: a708c846-bc50-425d-b64c-f4cd54882ee8
+langcode: es
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: GpzXLEDuAl7Bppy3oqc8mlq5SwqY46qg8MOf6-Ahw0o
+id: lib_v2_cards_interested
+label: 'Tarjetas te puede interesar'
+revision: 0
+description: 'Tambien te podría interesar'

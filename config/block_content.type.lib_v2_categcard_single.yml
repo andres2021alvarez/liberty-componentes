@@ -1,0 +1,10 @@
+uuid: 48b20d3d-b941-4c80-add4-10d53dbf1db4
+langcode: es
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 1BAsOj_rEBHssp-T-sqlyFEGoMoJW3tuBtk4VPf_EAc
+id: lib_v2_categcard_single
+label: 'Tarjeta simple'
+revision: 0
+description: 'tarjeta simple para caja de categorias'

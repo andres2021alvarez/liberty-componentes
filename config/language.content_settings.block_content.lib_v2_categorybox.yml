@@ -1,0 +1,13 @@
+uuid: 8413fc2c-7810-4efb-9579-f3d6c43dcc13
+langcode: es
+status: true
+dependencies:
+  config:
+    - block_content.type.lib_v2_categorybox
+_core:
+  default_config_hash: D9t1txROrG5uNJktz9QNly0dWiKXOqTXm2Ckb7oNIBA
+id: block_content.lib_v2_categorybox
+target_entity_type_id: block_content
+target_bundle: lib_v2_categorybox
+default_langcode: site_default
+language_alterable: false

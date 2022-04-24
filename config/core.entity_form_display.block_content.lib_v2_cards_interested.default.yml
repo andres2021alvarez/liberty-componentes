@@ -1,0 +1,43 @@
+uuid: c36370f5-a8e0-4d2b-996d-66c985787902
+langcode: es
+status: true
+dependencies:
+  config:
+    - block_content.type.lib_v2_cards_interested
+    - field.field.block_content.lib_v2_cards_interested.field_lib_v2_cards_interested_ic
+    - field.field.block_content.lib_v2_cards_interested.field_lib_v2_cards_interested_li
+  module:
+    - link
+    - media_library
+_core:
+  default_config_hash: LQtnS1vZRG9he7Zk3EgYEbf3XngnzKiL3XeRbHjDIn4
+id: block_content.lib_v2_cards_interested.default
+targetEntityType: block_content
+bundle: lib_v2_cards_interested
+mode: default
+content:
+  field_lib_v2_cards_interested_ic:
+    type: media_library_widget
+    weight: 1
+    region: content
+    settings:
+      media_types: {  }
+    third_party_settings: {  }
+  field_lib_v2_cards_interested_li:
+    type: link_default
+    weight: 2
+    region: content
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+  info:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  langcode: true

@@ -5,6 +5,8 @@ dependencies:
   config:
     - block_content.type.lib_v2_carousel_card
     - field.storage.block_content.field_lib_v2_carousel_text_main
+_core:
+  default_config_hash: oGO0ts3whJNi1N3RQJhb_rBBSmh3DYu3_63PSXY0TYM
 id: block_content.lib_v2_carousel_card.field_lib_v2_carousel_text_main
 field_name: field_lib_v2_carousel_text_main
 entity_type: block_content

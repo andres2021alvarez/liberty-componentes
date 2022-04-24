@@ -7,13 +7,15 @@ dependencies:
     - field.storage.block_content.field_lib_v2_carousel_link_color
   module:
     - options
+_core:
+  default_config_hash: VBi0Fbw45H9i5MMGwOuiAzhM_x0wypZBdYWpX_WDitc
 id: block_content.lib_v2_carousel_card.field_lib_v2_carousel_link_color
 field_name: field_lib_v2_carousel_link_color
 entity_type: block_content
 bundle: lib_v2_carousel_card
 label: 'Color Botón'
 description: ''
-required: true
+required: false
 translatable: false
 default_value:
   -

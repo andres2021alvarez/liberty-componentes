@@ -1,0 +1,21 @@
+uuid: 94c2d9e0-2d72-4d6a-b982-d381f9a17c1d
+langcode: es
+status: true
+dependencies:
+  config:
+    - block_content.type.lib_v2_categtabs
+    - field.storage.block_content.field_lib_v2_categtabs_title
+_core:
+  default_config_hash: Yg810GJy8L6EVTi6s1I-ch9pJQI-FHUqY9OcO4CDG0U
+id: block_content.lib_v2_categtabs.field_lib_v2_categtabs_title
+field_name: field_lib_v2_categtabs_title
+entity_type: block_content
+bundle: lib_v2_categtabs
+label: Titulo
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

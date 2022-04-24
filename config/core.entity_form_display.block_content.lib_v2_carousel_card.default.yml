@@ -14,6 +14,8 @@ dependencies:
   module:
     - link
     - media_library
+_core:
+  default_config_hash: gvfCuHDKuAp84j-ut8Mfq1vcJA7r8LhJlIL-Y6terAQ
 id: block_content.lib_v2_carousel_card.default
 targetEntityType: block_content
 bundle: lib_v2_carousel_card

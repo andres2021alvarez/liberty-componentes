@@ -8,6 +8,8 @@ dependencies:
     - field.field.block_content.lib_v2_text_box.field_lib_v2_text_box_title
   module:
     - text
+_core:
+  default_config_hash: SXKnSGb0W2vbMZc4eIW-iZR03XVC2Vb0B0Df7nn8XsA
 id: block_content.lib_v2_text_box.default
 targetEntityType: block_content
 bundle: lib_v2_text_box

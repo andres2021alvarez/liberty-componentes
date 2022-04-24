@@ -1,0 +1,34 @@
+uuid: 75ba2e50-8eb3-49b4-a062-0fd06a5b49cf
+langcode: es
+status: true
+dependencies:
+  config:
+    - block_content.type.lib_v2_categcard_single
+    - field.field.block_content.lib_v2_categcard_single.field_lib_v2_categcard_desc
+    - field.field.block_content.lib_v2_categcard_single.field_lib_v2_categcard_icon
+_core:
+  default_config_hash: u--sOKlUi8f98j_X044E8DjA9OJ40w99RpRZWGNukl4
+id: block_content.lib_v2_categcard_single.default
+targetEntityType: block_content
+bundle: lib_v2_categcard_single
+mode: default
+content:
+  field_lib_v2_categcard_desc:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_lib_v2_categcard_icon:
+    type: entity_reference_entity_view
+    label: hidden
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  langcode: true

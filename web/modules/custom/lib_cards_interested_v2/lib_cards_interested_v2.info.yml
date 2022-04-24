@@ -1,0 +1,11 @@
+name: 'Lib cards interested v2'
+type: module
+description: 'Cards, you may be interested'
+core_version_requirement: ^8 || ^9
+package: 'Esinergia'
+dependencies: 
+  - inline_entity_form
+  - lib_v2_core
+  - svg_image_field
+  - media
+  - media_library

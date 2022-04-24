@@ -1,0 +1,13 @@
+uuid: 1ded88af-503c-4472-ac25-017c2df7ac28
+langcode: es
+status: true
+dependencies:
+  config:
+    - block_content.type.lib_v2_categcard_single
+_core:
+  default_config_hash: jh5ilJDLISf4dhyK6FOx-LZdl7ovJfWOLe9tvW9Wwdo
+id: block_content.lib_v2_categcard_single
+target_entity_type_id: block_content
+target_bundle: lib_v2_categcard_single
+default_langcode: site_default
+language_alterable: false

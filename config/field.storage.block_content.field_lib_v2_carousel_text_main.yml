@@ -4,6 +4,8 @@ status: true
 dependencies:
   module:
     - block_content
+_core:
+  default_config_hash: BBab6mJeEYPTprwCmxD1ti-yIBmqMID6cUHlucNRiRY
 id: block_content.field_lib_v2_carousel_text_main
 field_name: field_lib_v2_carousel_text_main
 entity_type: block_content

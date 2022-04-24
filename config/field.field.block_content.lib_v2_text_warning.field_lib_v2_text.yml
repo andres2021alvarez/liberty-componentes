@@ -1,12 +1,12 @@
-uuid: a7171a75-7bf8-425f-83c3-23de1012e2ea
+uuid: 97d1a5c4-f781-4e99-bffe-62744df33e58
 langcode: es
 status: true
 dependencies:
   config:
     - block_content.type.lib_v2_text_warning
     - field.storage.block_content.field_lib_v2_text
-  module:
-    - text
+_core:
+  default_config_hash: sYBkz-jbW9iIMJ8h0kMbl_x_jWxpxRwwtw8znCe8_70
 id: block_content.lib_v2_text_warning.field_lib_v2_text
 field_name: field_lib_v2_text
 entity_type: block_content
@@ -18,4 +18,4 @@ translatable: false
 default_value: {  }
 default_value_callback: ''
 settings: {  }
-field_type: text_long
+field_type: string

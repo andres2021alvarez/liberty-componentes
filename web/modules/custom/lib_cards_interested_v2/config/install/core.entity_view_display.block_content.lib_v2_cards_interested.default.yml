@@ -1,0 +1,38 @@
+uuid: 448ff399-2548-40e6-b0be-540e2d29c003
+langcode: es
+status: true
+dependencies:
+  config:
+    - block_content.type.lib_v2_cards_interested
+    - field.field.block_content.lib_v2_cards_interested.field_lib_v2_cards_interested_ic
+    - field.field.block_content.lib_v2_cards_interested.field_lib_v2_cards_interested_li
+  module:
+    - link
+id: block_content.lib_v2_cards_interested.default
+targetEntityType: block_content
+bundle: lib_v2_cards_interested
+mode: default
+content:
+  field_lib_v2_cards_interested_ic:
+    type: entity_reference_entity_view
+    label: hidden
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_lib_v2_cards_interested_li:
+    type: link
+    label: hidden
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden:
+  langcode: true

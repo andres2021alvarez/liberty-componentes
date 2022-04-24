@@ -1,0 +1,11 @@
+uuid: cabf7e82-9349-49fc-8490-95f5e5d3b6b4
+langcode: es
+status: true
+dependencies:
+  config:
+    - block_content.type.lib_v2_cards_interested_group
+id: block_content.lib_v2_cards_interested_group
+target_entity_type_id: block_content
+target_bundle: lib_v2_cards_interested_group
+default_langcode: site_default
+language_alterable: false

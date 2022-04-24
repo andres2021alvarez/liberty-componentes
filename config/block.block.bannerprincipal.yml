@@ -1,0 +1,25 @@
+uuid: 9dff35f3-2aee-4820-bfec-d273e8c9da90
+langcode: es
+status: true
+dependencies:
+  content:
+    - 'block_content:lib_v2_banner_main:93626ce3-68b1-4b46-ae7c-ac8586f7c9c7'
+  module:
+    - block_content
+  theme:
+    - custom_theme
+id: bannerprincipal
+theme: custom_theme
+region: content
+weight: -1
+provider: null
+plugin: 'block_content:93626ce3-68b1-4b46-ae7c-ac8586f7c9c7'
+settings:
+  id: 'block_content:93626ce3-68b1-4b46-ae7c-ac8586f7c9c7'
+  label: 'banner principal '
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

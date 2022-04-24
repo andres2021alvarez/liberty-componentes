@@ -7,6 +7,8 @@ dependencies:
     - field.storage.block_content.field_lib_v2_text_box_desc
   module:
     - text
+_core:
+  default_config_hash: 2EB0FfXdUxvPkAgv4WjxexW0V6J7YBSAUlIxNK4IFHA
 id: block_content.lib_v2_text_box.field_lib_v2_text_box_desc
 field_name: field_lib_v2_text_box_desc
 entity_type: block_content

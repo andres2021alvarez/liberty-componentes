@@ -7,6 +7,8 @@ dependencies:
     - field.storage.block_content.field_lib_v2_carousel_link
   module:
     - link
+_core:
+  default_config_hash: Y3PPzdD6SVhLZAn0h0NpOGT-b26Hh5LiswF4sLS7z-4
 id: block_content.lib_v2_carousel_card.field_lib_v2_carousel_link
 field_name: field_lib_v2_carousel_link
 entity_type: block_content

@@ -1,0 +1,10 @@
+uuid: 493032d0-a4b9-493a-9f14-69965c848ccb
+langcode: es
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: tXOsxb1-zh1SZaYwbktq-JG6RaVOtDnzzzSTYDgaMKo
+id: lib_v2_categtabs
+label: Categorias
+revision: 0
+description: 'Pestañas para caja de categorias'

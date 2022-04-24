@@ -7,6 +7,8 @@ dependencies:
     - field.field.block_content.lib_v2_carousel.field_lib_v2_carousel_group_ref
   module:
     - inline_entity_form
+_core:
+  default_config_hash: KrTXIIa25h9i55bzP1j2P12g67j6XA4v7XuvBH04P60
 id: block_content.lib_v2_carousel.default
 targetEntityType: block_content
 bundle: lib_v2_carousel

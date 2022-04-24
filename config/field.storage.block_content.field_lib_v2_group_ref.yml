@@ -4,6 +4,8 @@ status: true
 dependencies:
   module:
     - block_content
+_core:
+  default_config_hash: qjNbKuuitzFDYIi25xT15JI2QzWmvUYymhU1JCHWyhk
 id: block_content.field_lib_v2_group_ref
 field_name: field_lib_v2_group_ref
 entity_type: block_content

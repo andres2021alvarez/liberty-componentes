@@ -1,0 +1,11 @@
+uuid: 244ad2ec-caa4-4d71-8464-12c11fadf8ba
+langcode: es
+status: true
+dependencies:
+  config:
+    - block_content.type.lib_v2_cards_interested
+id: block_content.lib_v2_cards_interested
+target_entity_type_id: block_content
+target_bundle: lib_v2_cards_interested
+default_langcode: site_default
+language_alterable: false

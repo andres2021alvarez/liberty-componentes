@@ -1,4 +1,4 @@
-name: 'Cuadro Advertencia'
+name: 'Lib text warning v2'
 type: module
 description: 'turquoise text box with enriched text'
 core_version_requirement: ^8 || ^9
