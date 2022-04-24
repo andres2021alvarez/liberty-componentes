@@ -7,3 +7,4 @@ dependencies:
   - inline_entity_form
   - lib_v2_core
   - media
+  - media_library

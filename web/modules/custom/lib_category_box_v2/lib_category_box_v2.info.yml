@@ -7,3 +7,4 @@ dependencies:
   - lib_v2_core
   - svg_image_field
   - media
+  - media_library
