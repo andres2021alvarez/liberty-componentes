@@ -1,0 +1,25 @@
+uuid: cd56f362-ee68-4164-be6d-b6d7434f910b
+langcode: es
+status: true
+dependencies:
+  content:
+    - 'block_content:lib_v2_text_warning:57dfe019-bb72-475d-a47a-5c2363b6d950'
+  module:
+    - block_content
+  theme:
+    - custom_theme
+id: textoadvertencia
+theme: custom_theme
+region: content
+weight: 0
+provider: null
+plugin: 'block_content:57dfe019-bb72-475d-a47a-5c2363b6d950'
+settings:
+  id: 'block_content:57dfe019-bb72-475d-a47a-5c2363b6d950'
+  label: 'texto advertencia'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

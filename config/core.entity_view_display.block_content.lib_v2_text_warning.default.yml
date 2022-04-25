@@ -20,7 +20,7 @@ content:
       view_mode: default
       link: false
     third_party_settings: {  }
-    weight: 0
+    weight: 2
     region: content
   field_lib_v2_text:
     type: string
