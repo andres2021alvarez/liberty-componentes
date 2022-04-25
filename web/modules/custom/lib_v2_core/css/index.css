@@ -3,7 +3,14 @@
     --primary-color: #1A1446;
     --button-color: #78E1E1;
     --black-color: #333;
+    --gray-color: #ccc;
+    --desktop: 1140px;
+    --height-banner: 450px;
   }
+
+h1, h2, h3, h4, h6 {
+    color: var(--primary-color);
+}
 
 .lib-comp-button {
     background: var(--button-color);

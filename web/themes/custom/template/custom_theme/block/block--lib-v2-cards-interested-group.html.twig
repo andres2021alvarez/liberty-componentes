@@ -1,0 +1,15 @@
+{{ attach_library('lib_v2_core/libraries') }}
+{{ attach_library('lib_cards_interested_v2/libraries') }}
+<div class="lib-comp-interested">
+    <h2 class="lib-comp-interested__title">También podría interesar</h2>
+    <div class="lib-comp-interested__grid grid-3">
+        {# Cards #}
+        {% for key, item in content.field_lib_v2_cards_interested_gr if key|first != '#' %}
+            <a href="{{item.field_lib_v2_cards_interested_li[0]['#url']}}" class="lib-comp-interested__card">
+                <span class="lib-comp-interested__icon">{{item.field_lib_v2_cards_interested_ic}}</span>
+                <span class="lib-comp-interested__text">{{item.field_lib_v2_cards_interested_li.0['#title']}}</span>
+            </a>
+        {% endfor %}  
+        {# End Cards #}
+    </div> 
+</div>

@@ -2,41 +2,21 @@
 Drupal.behaviors.libCarrousel = {
     attach(context) {
   
-        var carrouselitem = document.querySelectorAll('.header__menu .menu span');
-        var mmcontent = document.querySelectorAll('.header__menu .menu .menu_link_content');
-  
-        for (let i = 0; i < mmspan.length; i++) {
-          mmspan[i].addEventListener("click", function(event) {
-            
-            if (document.querySelector('.active-son')) {
-              var itemson = document.querySelector('.active-son');
-              var menuitem = itemson.closest('.menu-item');
-  
-              menuitem.classList.remove('active');
-              itemson.classList.remove('active');
-              itemson.classList.remove('active-son');
+      var carrouselitem = document.querySelectorAll('.lib-comp-carrousel__item');
+      var carrouselnav = document.querySelectorAll('.lib-comp-carrousel__circle');
+
+      for (let i = 0; i < carrouselnav.length; i++) {
+        carrouselnav[i].addEventListener("click", function(event) {
+          event.preventDefault();
+          for (let q = 0; q < carrouselitem.length; q++) {
+            const element = carrouselitem[q];
+            if ( element.classList.contains('is-active')) {
+              element.classList.remove('is-active');
             }
-  
-            if ( mmspan[i].classList.contains('active')) {
-              mmspan[i].classList.remove('active', 'active-son');
-              mmspan[i].parentNode.classList.remove('active');
-            } else {
-              mmspan[i].classList.add('active', 'active-son');
-              mmspan[i].parentNode.classList.add('active');
-            }
-          });
-        };
-  
-        for (let i = 0; i < mmcontent.length; i++) {
-            mmcontent[i].addEventListener("mouseleave", function( event ) {
-                if ( mmcontent[i].parentNode.classList.contains('active')) {
-                    mmcontent[i].parentNode.classList.remove('active');
-                    mmcontent[i].parentNode.querySelector('span').classList.remove('active');
-                    document.querySelector('.active-son').classList.remove('active-son');
-                } else {
-                }
-            });
-        };
+          }
+          carrouselitem[i].classList.add('is-active');
+        });
+      };
     },
   };
   

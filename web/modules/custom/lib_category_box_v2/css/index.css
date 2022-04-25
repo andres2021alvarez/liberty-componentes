@@ -1,3 +1,29 @@
-.h1{
-    background-color: #ffffff;
-}   
+.lib-comp-catbox {
+    max-width: var(--desktop);
+    margin: 4rem auto;
+}
+
+.lib-comp-catbox__tabs {
+    display: flex;
+    justify-content: stretch;
+    align-items: baseline;
+}
+
+.lib-comp-catbox__tab {
+    text-align: center;
+    width: 100%;
+    border-bottom: 5px solid var(--gray-color);
+    padding: 1rem 2rem;
+}
+
+.lib-comp-catbox__tab.is-active {
+    border-bottom: 5px solid var(--button-color);
+}
+
+.lib-comp-catbox__grid {
+    display: none;
+}
+
+.lib-comp-catbox__grid.is-active {
+    display: grid;
+}
