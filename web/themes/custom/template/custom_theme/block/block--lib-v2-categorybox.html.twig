@@ -20,18 +20,18 @@
         <div class="lib-comp-catbox__tab-content">
             {# Grid icons #}
             {% for key, item in content.field_lib_v2_categorybox_group_r if key|first != '#' %}
-                {% for key, item2 in item.field_lib_v2_categtabs_group_ref if key|first != '#' %}
                 {% if key == 0 %}
                 <div class="lib-comp-catbox__grid {{item.field_lib_v2_categtabs_colum.0['#markup']}} is-active">
                 {% else %}
                 <div class="lib-comp-catbox__grid {{item.field_lib_v2_categtabs_colum.0['#markup']}}">
                 {% endif %}
+                {% for key, item2 in item.field_lib_v2_categtabs_group_ref if key|first != '#' %}
                     <div class="lib-comp-catbox__item lib-comp-catbox__item-{{key + 1}} lib-comp-card-icon">
                         <div class="lib-comp-card-icon__icon">{{(item2.field_lib_v2_categcard_icon)}}</div>
-                        <div class="lib-comp-card-icon__icon">{{(item2.field_lib_v2_categcard_desc)}}</div>
+                        <div class="lib-comp-card-icon__text">{{(item2.field_lib_v2_categcard_desc)}}</div>
                     </div>
-                </div>
                 {% endfor %}
+                </div>
             {% endfor %}
             {# End Grid Icons #}
         </div>

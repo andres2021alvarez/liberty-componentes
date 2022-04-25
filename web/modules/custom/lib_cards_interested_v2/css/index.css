@@ -1,3 +1,33 @@
-.h1{
-    background-color: #ffffff;
-}   
+.lib-comp-interested {
+    max-width: var(--desktop);
+    margin: 4rem auto;
+}
+
+.lib-comp-interested__title {
+    text-align: center;
+    font-weight: lighter;
+    font-size: 2rem;
+}
+
+.lib-comp-interested__grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 2rem;
+    margin: 4rem 0;
+}
+
+.lib-comp-interested__card {
+    padding: 2rem;
+    display: flex;
+    border-radius: 12px;
+    text-decoration: none;
+    align-items: center;
+    justify-content: flex-start;
+    color: var(--primary-color);
+    background-color: #e6efef;
+    background-image: url(img/right.svg);
+    background-position: center right;
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    background-size: 25px;
+}
