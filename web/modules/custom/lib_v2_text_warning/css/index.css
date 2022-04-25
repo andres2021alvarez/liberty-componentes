@@ -1,0 +1,7 @@
+.lib-comp-textwarning {
+    display: flex;
+    padding: 2rem;
+    background-color: var(--button-color);
+    color: var(--primary-color);
+    margin: 4rem 2rem;
+}
