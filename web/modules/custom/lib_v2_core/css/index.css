@@ -24,6 +24,15 @@ h1, h2, h3, h4, h6 {
     color: var(--primary-color);
 }
 
-.lib-comp-button__yellow {
+.lib-comp-button__yellow, .lib-comp-button-yellow, .lib-comp-button--yellow {
     background: var(--yellow-color);
+}
+
+.lib-comp-button__blue, .lib-comp-button-blue, .lib-comp-button--blue {
+    background: var(--primary-color);
+    color: white;
+}
+
+.lib-comp-button__light-blue, .lib-comp-button-light-blue, .lib-comp-button--light-blue {
+    background: var(--button-color);
 }
