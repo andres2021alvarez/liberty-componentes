@@ -159,7 +159,7 @@ display:
           submit_button: 'Apply filters'
           reset_button: false
           reset_button_label: Reset
-          exposed_sorts_label: 'Sort by'
+          exposed_sorts_label: 'Ordenar por'
           expose_sort_order: false
           sort_asc_label: Asc
           sort_desc_label: Desc
