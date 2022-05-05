@@ -1,12 +1,12 @@
-uuid: ae21df31-5aae-462e-913f-a8194fd88a1a
+uuid: 9d6a8f3f-38d1-4c1d-b768-5098e006663f
 langcode: es
 status: true
 dependencies:
   module:
     - entity_reference_revisions
     - paragraphs
-id: paragraph.field_componentes_v2
-field_name: field_componentes_v2
+id: paragraph.field_lib_v2_cards_group_ref
+field_name: field_lib_v2_cards_group_ref
 entity_type: paragraph
 type: entity_reference_revisions
 settings:

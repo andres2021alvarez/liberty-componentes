@@ -1,12 +1,12 @@
-uuid: 656072fb-8ce0-457b-b6c9-7ad271fcb6d6
+uuid: cef233d6-7280-4860-b224-3d1bcd73ea88
 langcode: es
 status: true
 dependencies:
   module:
     - media
     - paragraphs
-id: paragraph.field_lib_v2_carousel_image
-field_name: field_lib_v2_carousel_image
+id: paragraph.field_lib_v2_cards_image
+field_name: field_lib_v2_cards_image
 entity_type: paragraph
 type: entity_reference
 settings:

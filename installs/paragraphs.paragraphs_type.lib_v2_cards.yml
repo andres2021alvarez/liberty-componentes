@@ -1,9 +1,9 @@
-uuid: 23c6a8fc-b323-4efb-91d7-84611f16b303
+uuid: b9ed3705-3475-4ba6-a43c-e75571719b40
 langcode: es
 status: true
 dependencies: {  }
-id: componentes_v2
-label: 'Componentes v2'
+id: lib_v2_cards
+label: cards
 icon_uuid: null
 icon_default: null
 description: ''

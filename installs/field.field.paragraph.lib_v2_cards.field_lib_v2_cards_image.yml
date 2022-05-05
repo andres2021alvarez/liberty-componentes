@@ -1,16 +1,16 @@
-uuid: 663ad024-e25b-4baf-bcb2-aba09fd1fc5b
+uuid: ca4f91da-ac39-469a-a570-88651caab651
 langcode: es
 status: true
 dependencies:
   config:
-    - field.storage.paragraph.field_lib_v2_carousel_image
+    - field.storage.paragraph.field_lib_v2_cards_image
     - media.type.image
-    - paragraphs.paragraphs_type.lib_v2_carousel_card
-id: paragraph.lib_v2_carousel_card.field_lib_v2_carousel_image
-field_name: field_lib_v2_carousel_image
+    - paragraphs.paragraphs_type.lib_v2_cards
+id: paragraph.lib_v2_cards.field_lib_v2_cards_image
+field_name: field_lib_v2_cards_image
 entity_type: paragraph
-bundle: lib_v2_carousel_card
-label: Image
+bundle: lib_v2_cards
+label: imagen
 description: ''
 required: false
 translatable: false
