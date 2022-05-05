@@ -1,23 +1,21 @@
-uuid: 493ba350-9743-429e-a7fa-c661e3041bb4
+uuid: 80d4f4cc-a87d-41e7-9a1a-9f7d21578595
 langcode: es
 status: true
 dependencies:
   config:
-    - block_content.type.lib_v2_carousel_card
-    - field.field.block_content.lib_v2_carousel_card.field_lib_v2_carousel_background
-    - field.field.block_content.lib_v2_carousel_card.field_lib_v2_carousel_image
-    - field.field.block_content.lib_v2_carousel_card.field_lib_v2_carousel_link
-    - field.field.block_content.lib_v2_carousel_card.field_lib_v2_carousel_link_color
-    - field.field.block_content.lib_v2_carousel_card.field_lib_v2_carousel_sec
-    - field.field.block_content.lib_v2_carousel_card.field_lib_v2_carousel_text_main
-    - field.field.block_content.lib_v2_carousel_card.field_lib_v2_carousel_text_sup
+    - field.field.paragraph.lib_v2_carousel_card.field_lib_v2_carousel_background
+    - field.field.paragraph.lib_v2_carousel_card.field_lib_v2_carousel_image
+    - field.field.paragraph.lib_v2_carousel_card.field_lib_v2_carousel_link
+    - field.field.paragraph.lib_v2_carousel_card.field_lib_v2_carousel_link_color
+    - field.field.paragraph.lib_v2_carousel_card.field_lib_v2_carousel_sec
+    - field.field.paragraph.lib_v2_carousel_card.field_lib_v2_carousel_text_main
+    - field.field.paragraph.lib_v2_carousel_card.field_lib_v2_carousel_text_sup
+    - paragraphs.paragraphs_type.lib_v2_carousel_card
   module:
     - link
     - options
-_core:
-  default_config_hash: mo3nY5G1iMMupI4PgKFGgDRlIwVUk81p_oTB90rOqPY
-id: block_content.lib_v2_carousel_card.default
-targetEntityType: block_content
+id: paragraph.lib_v2_carousel_card.default
+targetEntityType: paragraph
 bundle: lib_v2_carousel_card
 mode: default
 content:
@@ -26,7 +24,7 @@ content:
     label: hidden
     settings: {  }
     third_party_settings: {  }
-    weight: 8
+    weight: 6
     region: content
   field_lib_v2_carousel_image:
     type: entity_reference_entity_view
@@ -35,7 +33,7 @@ content:
       view_mode: default
       link: false
     third_party_settings: {  }
-    weight: 2
+    weight: 1
     region: content
   field_lib_v2_carousel_link:
     type: link
@@ -47,14 +45,14 @@ content:
       rel: ''
       target: ''
     third_party_settings: {  }
-    weight: 6
+    weight: 4
     region: content
   field_lib_v2_carousel_link_color:
     type: list_key
     label: hidden
     settings: {  }
     third_party_settings: {  }
-    weight: 7
+    weight: 5
     region: content
   field_lib_v2_carousel_sec:
     type: string
@@ -62,7 +60,7 @@ content:
     settings:
       link_to_entity: false
     third_party_settings: {  }
-    weight: 5
+    weight: 3
     region: content
   field_lib_v2_carousel_text_main:
     type: string
@@ -70,7 +68,7 @@ content:
     settings:
       link_to_entity: false
     third_party_settings: {  }
-    weight: 3
+    weight: 2
     region: content
   field_lib_v2_carousel_text_sup:
     type: string
@@ -78,7 +76,6 @@ content:
     settings:
       link_to_entity: false
     third_party_settings: {  }
-    weight: 1
+    weight: 0
     region: content
-hidden:
-  langcode: true
+hidden: {  }

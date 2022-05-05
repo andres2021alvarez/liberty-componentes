@@ -1,0 +1,37 @@
+uuid: 56a0b869-86eb-49aa-9d19-0ae6e859a429
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_paragradfs
+    - node.type.page
+    - paragraphs.paragraphs_type.lib_v2_carousel
+  module:
+    - entity_reference_revisions
+id: node.page.field_paragradfs
+field_name: field_paragradfs
+entity_type: node
+bundle: page
+label: paragradfs
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      lib_v2_carousel: lib_v2_carousel
+    negate: 0
+    target_bundles_drag_drop:
+      componentes_v2:
+        weight: 4
+        enabled: false
+      lib_v2_carousel:
+        weight: 5
+        enabled: true
+      lib_v2_carousel_card:
+        weight: 6
+        enabled: false
+field_type: entity_reference_revisions

@@ -6,6 +6,8 @@
  */
 
 use Drupal\Core\Routing\RouteMatchInterface;
+use Drupal\file\Entity\File;
+use Drupal\media\Entity\Media;
 
 /**
  * Implements hook_help().
@@ -46,4 +48,29 @@ function lib_carousel_v2_theme_suggestions_block_alter(array &$suggestions, arra
     }
 }
 
+function lib_carousel_v2_preprocess_paragraph(&$variables)
+{
+    /** @var \Drupal\paragraphs\Entity\Paragraph $paragraph */
+    $paragraph = $variables['paragraph'];
+    // Get the type
+    $parentBundle = $paragraph->bundle();
 
+    if ("lib_v2_carousel" == $parentBundle) {
+        foreach ($paragraph->get('field_lib_v2_carousel_group_ref')->getValue() as $clave => $element) {
+            $p = \Drupal\paragraphs\Entity\Paragraph::load($element['target_id']);
+            $variables['card_carrusel'][$clave]['subheading'] = $p->field_lib_v2_carousel_sec->getValue()[0]['value'];
+            $variables['card_carrusel'][$clave]['title'] = $p->field_lib_v2_carousel_text_main->getValue()[0]['value'];
+            $variables['card_carrusel'][$clave]['subtitle'] = $p->field_lib_v2_carousel_text_sup->getValue()[0]['value'];
+            $variables['card_carrusel'][$clave]['background'] = $p->field_lib_v2_carousel_background->getValue()[0]['value'];
+            $variables['card_carrusel'][$clave]['background'] = $p->field_lib_v2_carousel_background->getValue()[0]['value'];
+            $variables['card_carrusel'][$clave]['link']['uri'] = $p->field_lib_v2_carousel_link->getValue()[0]['uri'];
+            $variables['card_carrusel'][$clave]['link']['text'] = $p->field_lib_v2_carousel_link->getValue()[0]['title'];
+            $variables['card_carrusel'][$clave]['link']['color'] = $p->field_lib_v2_carousel_link_color->getValue()[0]['value'];
+            $fid = $p->field_lib_v2_carousel_image->getValue()[0]['target_id'];
+            $media = Media::load($fid);
+            $fid = $media->getSource()->getSourceFieldValue($media);
+            $file = File::load($fid);
+            $variables['card_carrusel'][$clave]['imagen'] = file_create_url($file->getFileUri());
+        }
+    }
+}
