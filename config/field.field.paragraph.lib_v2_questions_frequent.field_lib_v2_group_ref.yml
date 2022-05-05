@@ -1,20 +1,18 @@
-uuid: 56a0b869-86eb-49aa-9d19-0ae6e859a429
+uuid: 70947c7e-b057-4dbf-8b9a-c6d7a8a8c487
 langcode: es
 status: true
 dependencies:
   config:
-    - field.storage.node.field_paragradfs
-    - node.type.page
-    - paragraphs.paragraphs_type.lib_v2_cards_group
-    - paragraphs.paragraphs_type.lib_v2_carousel
+    - field.storage.paragraph.field_lib_v2_group_ref
     - paragraphs.paragraphs_type.lib_v2_questions_frequent
+    - paragraphs.paragraphs_type.lib_v2_questions_frequent_items
   module:
     - entity_reference_revisions
-id: node.page.field_paragradfs
-field_name: field_paragradfs
-entity_type: node
-bundle: page
-label: paragradfs
+id: paragraph.lib_v2_questions_frequent.field_lib_v2_group_ref
+field_name: field_lib_v2_group_ref
+entity_type: paragraph
+bundle: lib_v2_questions_frequent
+label: 'Adicionar items'
 description: ''
 required: false
 translatable: false
@@ -24,30 +22,28 @@ settings:
   handler: 'default:paragraph'
   handler_settings:
     target_bundles:
-      lib_v2_carousel: lib_v2_carousel
-      lib_v2_cards_group: lib_v2_cards_group
-      lib_v2_questions_frequent: lib_v2_questions_frequent
+      lib_v2_questions_frequent_items: lib_v2_questions_frequent_items
     negate: 0
     target_bundles_drag_drop:
       componentes_v2:
-        weight: 4
+        weight: 8
         enabled: false
       lib_v2_cards:
-        weight: 7
+        weight: 9
         enabled: false
       lib_v2_cards_group:
-        weight: 8
-        enabled: true
+        weight: 10
+        enabled: false
       lib_v2_carousel:
-        weight: 5
-        enabled: true
+        weight: 11
+        enabled: false
       lib_v2_carousel_card:
-        weight: 6
+        weight: 12
         enabled: false
       lib_v2_questions_frequent:
         weight: 13
-        enabled: true
+        enabled: false
       lib_v2_questions_frequent_items:
         weight: 14
-        enabled: false
+        enabled: true
 field_type: entity_reference_revisions

@@ -45,3 +45,21 @@ function lib_v2_questions_frequent_theme_suggestions_block_alter(array &$suggest
         array_splice($suggestions, 1, 0, 'block__' . $variables['elements']['content']['#block_content']->bundle());
     }
 }
+
+function lib_v2_questions_frequent_preprocess_paragraph(&$variables)
+{
+    /** @var \Drupal\paragraphs\Entity\Paragraph $paragraph */
+    $paragraph = $variables['paragraph'];
+    // Get the type
+    $parentBundle = $paragraph->bundle();
+
+    if ("lib_v2_questions_frequent" == $parentBundle) {
+        foreach ($paragraph->get('field_lib_v2_group_ref')->getValue() as $clave => $element) {
+            $p = \Drupal\paragraphs\Entity\Paragraph::load($element['target_id']);
+            $variables['questions_frequent'][$clave]['title'] = $p->field_lib_v2_group_ref_title->getValue()[0]['value'];
+            
+            $variables['questions_frequent'][$clave]['desc'] = $p->field_lib_v2_group_ref_descripti->getValue()[0]['value'];
+        }
+    }
+
+}

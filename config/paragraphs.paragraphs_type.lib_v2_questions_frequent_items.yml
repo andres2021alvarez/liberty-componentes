@@ -1,9 +1,9 @@
-uuid: b89955f6-f17f-4472-8e77-ee414b76f7ff
+uuid: 1740c2ef-0c65-4923-b554-0b691041ba1f
 langcode: es
 status: true
 dependencies: {  }
-id: lib_v2_cards_group
-label: 'Card Group'
+id: lib_v2_questions_frequent_items
+label: 'Items Preguntas'
 icon_uuid: null
 icon_default: null
 description: ''
