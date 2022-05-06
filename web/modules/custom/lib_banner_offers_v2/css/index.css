@@ -14,3 +14,9 @@
 .lib-comp-breaker__info .lib-comp-button {
     background-color: white;
 }
+
+@media (max-width: 920px) {
+    .lib-comp-breaker__wrapper {
+        flex-direction: column;
+    }
+}

@@ -1,3 +1,9 @@
+
+.lib-comp-qaccess {
+    max-width: var(--desktop);
+    margin: 4rem auto;
+}
+
 .lib-comp-qaccess__grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -5,22 +11,51 @@
 }
 
 .lib-comp-qaccess__card {
-    background: white;
-    -webkit-box-shadow: 0 0 4px 0 #C7C7C7;
-    box-shadow: 0 0 4px 0 #C7C7C7;
-    padding: 1.5rem;
+    box-shadow: 0 0 15px rgb(0 0 0 / 10%);
     border-radius: 12px;
-    color: var(--black-color);
+    padding: 1rem;
+}
+
+.lib-comp-qaccess__icon img {
+    max-width: 40px;
+    height: auto;
+}
+
+.lib-comp-qaccess__icon {
+    margin-bottom: 1rem;
+    border-bottom: 1px solid lightgray;
 }
 
 .lib-comp-qaccess__list {
     display: flex;
-    flex-direction: row;
-    justify-self: flex-start;
+    justify-content: flex-start;
     align-items: center;
+    padding-bottom: .5rem;
+}
+
+.lib-comp-qaccess__icon-item img {
+    max-width: 30px;
+    height: auto;
+}
+
+.lib-comp-qaccess__title {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: lighter;
+    padding: 1rem 0 2rem;
 }
 
 .lib-comp-qaccess__icon-item {
-    max-width: 30px;
-    margin-right: 20px;
+    margin-right: .5rem;
+}
+
+.lib-comp-qaccess__icon-text a {
+    color: var(--black-color);
+    text-decoration: none;
+}
+
+@media (max-width: 920px) {
+    .lib-comp-qaccess__grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
 }
