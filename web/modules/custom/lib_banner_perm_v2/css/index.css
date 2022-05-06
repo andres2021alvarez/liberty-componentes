@@ -12,6 +12,14 @@
     background: var(--yellow-color);
 }
 
+.lib-comp-banner-main__content-light-blue {
+    background: var(--button-color);
+}
+
+.lib-comp-banner-main__content-blue {
+    background: var(--blue-color);
+}
+
 .lib-comp-banner-main__textwrap {
     line-height: 1.4;
 }
