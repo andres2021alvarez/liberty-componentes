@@ -37,22 +37,6 @@ h1, h2, h3, h4, h6 {
     background: var(--button-color);
 }
 
-.lib-comp-breaker {
-    background-color: var(--button-color);
-    padding: 3rem 0;
-}
-
-.lib-comp-breaker__wrapper {
-    max-width: var(--desktop);
-    margin: 4rem auto;
-    display: flex;
-    gap: 2rem;
-    flex-direction: row;
-}
-
-.lib-comp-breaker__info .lib-comp-button {
-    background-color:white;
-}
 
 .lib-comp-qaccess {
     max-width: var(--desktop);
