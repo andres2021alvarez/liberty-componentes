@@ -1,0 +1,11 @@
+uuid: 4eef2ccc-ebef-4c01-af41-6b2b8da50dff
+langcode: es
+status: true
+dependencies:
+  config:
+    - block_content.type.lib_v2_quick_acces_card_item
+id: block_content.lib_v2_quick_acces_card_item
+target_entity_type_id: block_content
+target_bundle: lib_v2_quick_acces_card_item
+default_langcode: site_default
+language_alterable: false

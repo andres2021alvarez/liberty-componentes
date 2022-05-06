@@ -1,0 +1,29 @@
+uuid: 9a89e9fd-78a8-4967-8eec-c21fb11bf036
+langcode: es
+status: true
+dependencies:
+  config:
+    - block_content.type.lib_v2_quick_acces_card
+    - block_content.type.lib_v2_quick_acces_group
+    - field.storage.block_content.field_lib_v2_quick_acces_gref
+id: block_content.lib_v2_quick_acces_group.field_lib_v2_quick_acces_gref
+field_name: field_lib_v2_quick_acces_gref
+entity_type: block_content
+bundle: lib_v2_quick_acces_group
+label: 'Adicionar tarjetas'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:block_content'
+  handler_settings:
+    target_bundles:
+      lib_v2_quick_acces_card: lib_v2_quick_acces_card
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

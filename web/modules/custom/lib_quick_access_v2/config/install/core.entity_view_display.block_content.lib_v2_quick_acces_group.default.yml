@@ -1,0 +1,32 @@
+uuid: c55528be-5aff-4f6c-aaa3-4cf705d4133a
+langcode: es
+status: true
+dependencies:
+  config:
+    - block_content.type.lib_v2_quick_acces_group
+    - field.field.block_content.lib_v2_quick_acces_group.field_lib_v2_quick_acces_gref
+    - field.field.block_content.lib_v2_quick_acces_group.field_lib_v2_quick_acces_gtitle
+id: block_content.lib_v2_quick_acces_group.default
+targetEntityType: block_content
+bundle: lib_v2_quick_acces_group
+mode: default
+content:
+  field_lib_v2_quick_acces_gref:
+    type: entity_reference_entity_view
+    label: hidden
+    settings:
+      view_mode: default
+      link: true
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_lib_v2_quick_acces_gtitle:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  langcode: true

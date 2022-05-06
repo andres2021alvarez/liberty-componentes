@@ -1,0 +1,23 @@
+<!-- Add you custom twig html here -->
+
+{{ attach_library('lib_v2_core/libraries') }}
+{{ attach_library('lib_quick_access_v2/libraries') }}
+​
+<div class="lib-comp-qaccess">
+    <span>{{ content.field_lib_v2_quick_acces_gtitle }}</span>
+    {% for key, item in content.field_lib_v2_quick_acces_gref if key|first != '#' %}
+        <div class="lib-comp-qaccess__grid">
+            {# Items #}
+            <div class="lib-comp-qaccess__card">
+                <div class="lib-comp-qaccess__icon">{{ item.field_lib_v2_quick_acces_card_i2 }}</div>
+                {% for key, itemc in item.field_lib_v2_quick_acces_card if key|first != '#' %}
+                    <div class="lib-comp-qaccess__list">
+                        <div class="lib-comp-qaccess__icon-item">{{ itemc.field_lib_v2_quick_acces_card_ic }}</div>
+                        <div class="lib-comp-qaccess__icon-text">{{ itemc.field_lib_v2_quick_acces_card_li }}</div>
+                    </div>
+                {% endfor %}    
+            </div>
+            {# End Items #}
+        </div>
+    {% endfor %}
+</div>

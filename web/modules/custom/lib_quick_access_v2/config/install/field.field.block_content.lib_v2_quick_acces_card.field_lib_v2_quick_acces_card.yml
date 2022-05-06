@@ -1,0 +1,29 @@
+uuid: 8e7d07ea-2152-48dc-8a4d-19ca6028421b
+langcode: es
+status: true
+dependencies:
+  config:
+    - block_content.type.lib_v2_quick_acces_card
+    - block_content.type.lib_v2_quick_acces_card_item
+    - field.storage.block_content.field_lib_v2_quick_acces_card
+id: block_content.lib_v2_quick_acces_card.field_lib_v2_quick_acces_card
+field_name: field_lib_v2_quick_acces_card
+entity_type: block_content
+bundle: lib_v2_quick_acces_card
+label: 'Adicionar items'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:block_content'
+  handler_settings:
+    target_bundles:
+      lib_v2_quick_acces_card_item: lib_v2_quick_acces_card_item
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

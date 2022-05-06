@@ -1,0 +1,19 @@
+uuid: 3aa70ce3-7273-42b9-8cdc-834cb470468e
+langcode: es
+status: true
+dependencies:
+  config:
+    - block_content.type.lib_v2_banner_offer
+    - field.storage.block_content.field_lib_v2_banner_offer_headin
+id: block_content.lib_v2_banner_offer.field_lib_v2_banner_offer_headin
+field_name: field_lib_v2_banner_offer_headin
+entity_type: block_content
+bundle: lib_v2_banner_offer
+label: 'Texto principal'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

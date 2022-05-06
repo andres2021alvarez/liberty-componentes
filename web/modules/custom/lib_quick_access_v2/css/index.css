@@ -1,0 +1,26 @@
+.lib-comp-qaccess__grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 1.5rem;
+}
+
+.lib-comp-qaccess__card {
+    background: white;
+    -webkit-box-shadow: 0 0 4px 0 #C7C7C7;
+    box-shadow: 0 0 4px 0 #C7C7C7;
+    padding: 1.5rem;
+    border-radius: 12px;
+    color: var(--black-color);
+}
+
+.lib-comp-qaccess__list {
+    display: flex;
+    flex-direction: row;
+    justify-self: flex-start;
+    align-items: center;
+}
+
+.lib-comp-qaccess__icon-item {
+    max-width: 30px;
+    margin-right: 20px;
+}
