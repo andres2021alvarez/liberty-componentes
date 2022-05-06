@@ -5,6 +5,7 @@ dependencies:
   config:
     - field.storage.node.field_paragradfs
     - node.type.page
+    - paragraphs.paragraphs_type.lib_v2_banner_main
     - paragraphs.paragraphs_type.lib_v2_cards_group
     - paragraphs.paragraphs_type.lib_v2_carousel
     - paragraphs.paragraphs_type.lib_v2_questions_frequent
@@ -26,12 +27,16 @@ settings:
     target_bundles:
       lib_v2_carousel: lib_v2_carousel
       lib_v2_cards_group: lib_v2_cards_group
+      lib_v2_banner_main: lib_v2_banner_main
       lib_v2_questions_frequent: lib_v2_questions_frequent
     negate: 0
     target_bundles_drag_drop:
       componentes_v2:
         weight: 4
         enabled: false
+      lib_v2_banner_main:
+        weight: 10
+        enabled: true
       lib_v2_cards:
         weight: 7
         enabled: false
