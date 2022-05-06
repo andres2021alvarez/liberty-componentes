@@ -1,16 +1,17 @@
-uuid: cd78dfd1-372f-4a8a-8a78-2ce0db5c765b
+uuid: 13e8a46b-ef6a-4c7b-8d4b-edfaa3f845b4
 langcode: es
 status: true
 dependencies:
   module:
-    - media
     - paragraphs
-id: paragraph.field_lib_v2_banner_main_image
-field_name: field_lib_v2_banner_main_image
+id: paragraph.field_lib_v2_text_box_title
+field_name: field_lib_v2_text_box_title
 entity_type: paragraph
-type: entity_reference
+type: string
 settings:
-  target_type: media
+  max_length: 255
+  case_sensitive: false
+  is_ascii: false
 module: core
 locked: false
 cardinality: 1

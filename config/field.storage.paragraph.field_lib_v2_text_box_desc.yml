@@ -1,16 +1,16 @@
-uuid: eafe7df5-4e2d-4bd9-a5a0-0f210b675636
+uuid: c8ce8ee3-d724-43f7-9632-8ec693c03044
 langcode: es
 status: true
 dependencies:
   module:
-    - link
     - paragraphs
-id: paragraph.field_lib_v2_banner_main_link
-field_name: field_lib_v2_banner_main_link
+    - text
+id: paragraph.field_lib_v2_text_box_desc
+field_name: field_lib_v2_text_box_desc
 entity_type: paragraph
-type: link
+type: text_long
 settings: {  }
-module: link
+module: text
 locked: false
 cardinality: 1
 translatable: true
