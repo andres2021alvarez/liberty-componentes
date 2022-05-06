@@ -1,1 +1,18 @@
 <!-- Add you custom twig html here -->
+{{ attach_library('lib_v2_core/libraries') }}
+{{ attach_library('lib_banner_offers_v2/libraries') }}
+
+<div class="lib-comp-breaker">
+    <div class="lib-comp-breaker__wrapper">
+        <div class="lib-comp-breaker__image">
+            {{ content.field_lib_v2_banner_offer_image }}
+        </div>
+        <div class="lib-comp-breaker__info">
+            <h3>{{ content.field_lib_v2_banner_offer_headin }}</h3>
+            {{ content.field_lib_v2_banner_offer_subhea }}
+            {% if content.field_lib_v2_banner_offer_link %}
+                <a href="#" class="lib-comp-button lib-comp-card__button">{{content.field_lib_v2_banner_offer_link.0['#title']}}</a>
+            {% endif %}
+        </div>
+    </div>
+</div>
