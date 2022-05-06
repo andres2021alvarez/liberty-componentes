@@ -152,7 +152,7 @@ $settings['skip_permissions_hardening'] = TRUE;
  * to use this feature with modules that affect Drupal in a major way such as
  * the language or field module.
  */
-# $settings['config_exclude_modules'] = ['devel', 'stage_file_proxy'];
+$settings['config_exclude_modules'] = ['devel', 'stage_file_proxy'];
 $databases['default']['default'] = array (
     'database' => 'drupal9',
     'username' => 'drupal9',

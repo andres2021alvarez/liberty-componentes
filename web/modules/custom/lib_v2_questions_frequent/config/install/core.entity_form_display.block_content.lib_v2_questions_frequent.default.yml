@@ -8,6 +8,8 @@ dependencies:
     - field.field.block_content.lib_v2_questions_frequent.field_lib_v2_questions_title
   module:
     - inline_entity_form
+_core:
+  default_config_hash: sW9OPU3k0q3OzSXP77M5yyiJK-o0jS3flSnFk_uAOPk
 id: block_content.lib_v2_questions_frequent.default
 targetEntityType: block_content
 bundle: lib_v2_questions_frequent
