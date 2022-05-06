@@ -1,0 +1,21 @@
+uuid: c1049591-e70a-422a-86a9-53dd587b4e62
+langcode: es
+status: true
+dependencies:
+  config:
+    - block_content.type.lib_v2_banner_offer
+    - field.storage.block_content.field_lib_v2_banner_offer_backgr
+  module:
+    - options
+id: block_content.lib_v2_banner_offer.field_lib_v2_banner_offer_backgr
+field_name: field_lib_v2_banner_offer_backgr
+entity_type: block_content
+bundle: lib_v2_banner_offer
+label: Fondo
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

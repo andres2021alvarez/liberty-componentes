@@ -11,6 +11,7 @@ dependencies:
     - paragraphs.paragraphs_type.lib_v2_categorybox
     - paragraphs.paragraphs_type.lib_v2_questions_frequent
     - paragraphs.paragraphs_type.lib_v2_text_box
+    - paragraphs.paragraphs_type.lib_v2_text_warning
   module:
     - entity_reference_revisions
 id: node.page.field_paragradfs
@@ -33,6 +34,7 @@ settings:
       lib_v2_questions_frequent: lib_v2_questions_frequent
       lib_v2_text_box: lib_v2_text_box
       lib_v2_categorybox: lib_v2_categorybox
+      lib_v2_text_warning: lib_v2_text_warning
     negate: 0
     target_bundles_drag_drop:
       componentes_v2:
@@ -70,5 +72,8 @@ settings:
         enabled: false
       lib_v2_text_box:
         weight: 18
+        enabled: true
+      lib_v2_text_warning:
+        weight: 26
         enabled: true
 field_type: entity_reference_revisions

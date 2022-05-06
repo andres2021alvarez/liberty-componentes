@@ -1,0 +1,19 @@
+uuid: 2883b835-0f30-4e5a-882a-301f909665c5
+langcode: es
+status: true
+dependencies:
+  module:
+    - block_content
+    - link
+id: block_content.field_lib_v2_banner_offer_link
+field_name: field_lib_v2_banner_offer_link
+entity_type: block_content
+type: link
+settings: {  }
+module: link
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,9 @@
+name: 'Lib banner offers v2'
+type: module
+description: 'Banner de ofertas'
+core_version_requirement: ^8 || ^9
+package: 'Esinergia'
+dependencies: 
+  - media
+  - media_library
+  - lib_v2_core

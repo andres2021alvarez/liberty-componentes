@@ -1,0 +1,11 @@
+name: 'Lib quick access v2'
+type: module
+description: 'Modulo de tarjetas de accesos rapidos'
+core_version_requirement: ^8 || ^9
+package: 'Esinergia'
+dependencies: 
+  - media
+  - media_library
+  - inline_entity_form
+  - lib_v2_core
+  - svg_image_field
