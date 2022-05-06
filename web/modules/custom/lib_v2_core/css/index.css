@@ -36,3 +36,28 @@ h1, h2, h3, h4, h6 {
 .lib-comp-button__light-blue, .lib-comp-button-light-blue, .lib-comp-button--light-blue {
     background: var(--button-color);
 }
+
+.lib-comp-breaker {
+    background-color: var(--button-color);
+    padding: 3rem;
+}
+
+.lib-comp-breaker__wrapper {
+    display: flex;
+    gap: 2rem;
+    flex-direction: column;
+}
+
+.lib-comp-breaker__info .lib-comp-button {
+    background-color:white;
+}
+
+.lib-comp-qaccess {
+    padding: 4rem 0;
+}
+
+@media (max-width: 920px) {
+    .lib-comp-breaker__wrapper {
+        flex-direction: row;
+    }
+}
