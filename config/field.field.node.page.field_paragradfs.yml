@@ -8,6 +8,7 @@ dependencies:
     - paragraphs.paragraphs_type.lib_v2_banner_main
     - paragraphs.paragraphs_type.lib_v2_cards_group
     - paragraphs.paragraphs_type.lib_v2_carousel
+    - paragraphs.paragraphs_type.lib_v2_categorybox
     - paragraphs.paragraphs_type.lib_v2_questions_frequent
     - paragraphs.paragraphs_type.lib_v2_text_box
   module:
@@ -31,6 +32,7 @@ settings:
       lib_v2_banner_main: lib_v2_banner_main
       lib_v2_questions_frequent: lib_v2_questions_frequent
       lib_v2_text_box: lib_v2_text_box
+      lib_v2_categorybox: lib_v2_categorybox
     negate: 0
     target_bundles_drag_drop:
       componentes_v2:
@@ -50,6 +52,15 @@ settings:
         enabled: true
       lib_v2_carousel_card:
         weight: 6
+        enabled: false
+      lib_v2_categcard_single:
+        weight: 19
+        enabled: false
+      lib_v2_categorybox:
+        weight: 20
+        enabled: true
+      lib_v2_categtabs:
+        weight: 21
         enabled: false
       lib_v2_questions_frequent:
         weight: 13
