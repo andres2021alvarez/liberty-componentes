@@ -50,6 +50,17 @@
     object-fit: cover;
 }
 
+.lib-comp-banner-main__image div, .lib-comp-banner-main__image article {
+    height: 100%;
+    object-fit: cover;
+}
+
+.lib-comp-banner-main__image img {
+    object-fit: cover;
+    height: 100%;
+    width: auto;
+}
+
 @media (max-width: 920px) {
     .lib-comp-banner-main__card {
         grid-template-columns: repeat(1, 1fr);
