@@ -1,3 +1,22 @@
 .lib-comp-breaker {
     background-color: var(--button-color);
+    padding: 3rem 0;
+}
+
+.lib-comp-breaker__wrapper {
+    max-width: var(--desktop);
+    margin: 4rem;
+    display: flex;
+    gap: 2rem;
+    flex-direction: row;
+}
+
+.lib-comp-breaker__info .lib-comp-button {
+    background-color: white;
+}
+
+@media (max-width: 920px) {
+    .lib-comp-breaker__wrapper {
+        flex-direction: column;
+    }
 }
