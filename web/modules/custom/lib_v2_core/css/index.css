@@ -39,13 +39,15 @@ h1, h2, h3, h4, h6 {
 
 .lib-comp-breaker {
     background-color: var(--button-color);
-    padding: 3rem;
+    padding: 3rem 0;
 }
 
 .lib-comp-breaker__wrapper {
+    max-width: var(--desktop);
+    margin: 4rem auto;
     display: flex;
     gap: 2rem;
-    flex-direction: column;
+    flex-direction: row;
 }
 
 .lib-comp-breaker__info .lib-comp-button {
@@ -53,11 +55,66 @@ h1, h2, h3, h4, h6 {
 }
 
 .lib-comp-qaccess {
-    padding: 4rem 0;
+    max-width: var(--desktop);
+    margin: 4rem auto;
+}
+
+.lib-comp-qaccess__grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 1.5rem;
+}
+
+.lib-comp-qaccess__card {
+    box-shadow: 0 0 15px rgb(0 0 0 / 10%);
+    border-radius: 12px;
+    padding: 1rem;
+}
+
+.lib-comp-qaccess__icon img {
+    max-width: 40px;
+    height: auto;
+}
+
+.lib-comp-qaccess__icon {
+    margin-bottom: 1rem;
+    border-bottom: 1px solid lightgray;
+}
+
+.lib-comp-qaccess__list {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-bottom: .5rem;
+}
+
+.lib-comp-qaccess__icon-item img {
+    max-width: 30px;
+    height: auto;
+}
+
+.lib-comp-qaccess__title {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: lighter;
+    padding: 1rem 0 2rem;
+}
+
+.lib-comp-qaccess__icon-item {
+    margin-right: .5rem;
+}
+
+.lib-comp-qaccess__icon-text a {
+    color: var(--black-color);
+    text-decoration: none;
 }
 
 @media (max-width: 920px) {
     .lib-comp-breaker__wrapper {
-        flex-direction: row;
+        flex-direction: column;
+    }
+
+    .lib-comp-qaccess__grid {
+        grid-template-columns: repeat(1, 1fr);
     }
 }

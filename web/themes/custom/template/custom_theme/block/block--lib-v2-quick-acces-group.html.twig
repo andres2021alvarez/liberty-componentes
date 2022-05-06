@@ -2,7 +2,7 @@
 {{ attach_library('lib_quick_access_v2/libraries') }}
 
 <div class="lib-comp-qaccess">
-    <span>{{ content.field_lib_v2_quick_acces_gtitle }}</span>
+    <div class="lib-comp-qaccess__title">{{ content.field_lib_v2_quick_acces_gtitle }}</div>
     {% for key, item in content.field_lib_v2_quick_acces_gref if key|first != '#' %}
         <div class="lib-comp-qaccess__grid">
             {# Items #}
