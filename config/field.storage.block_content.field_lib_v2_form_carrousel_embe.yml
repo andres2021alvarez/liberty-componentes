@@ -1,0 +1,19 @@
+uuid: ea9b0dae-1bc4-4acd-afa9-07d6e46b3760
+langcode: es
+status: true
+dependencies:
+  module:
+    - block_content
+    - text
+id: block_content.field_lib_v2_form_carrousel_embe
+field_name: field_lib_v2_form_carrousel_embe
+entity_type: block_content
+type: text_long
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

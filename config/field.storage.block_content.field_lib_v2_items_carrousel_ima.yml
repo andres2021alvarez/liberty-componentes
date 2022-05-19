@@ -1,0 +1,20 @@
+uuid: 07946dda-eac9-4551-9f80-53cf2b4f7c9f
+langcode: es
+status: true
+dependencies:
+  module:
+    - block_content
+    - media
+id: block_content.field_lib_v2_items_carrousel_ima
+field_name: field_lib_v2_items_carrousel_ima
+entity_type: block_content
+type: entity_reference
+settings:
+  target_type: media
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

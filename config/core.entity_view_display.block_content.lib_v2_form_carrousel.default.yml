@@ -1,0 +1,33 @@
+uuid: a5deb56a-3497-45ea-b042-8f261986a86f
+langcode: es
+status: true
+dependencies:
+  config:
+    - block_content.type.lib_v2_form_carrousel
+    - field.field.block_content.lib_v2_form_carrousel.field_lib_v2_form_carrousel_embe
+    - field.field.block_content.lib_v2_form_carrousel.field_lib_v2_form_carrousel_item
+  module:
+    - text
+id: block_content.lib_v2_form_carrousel.default
+targetEntityType: block_content
+bundle: lib_v2_form_carrousel
+mode: default
+content:
+  field_lib_v2_form_carrousel_embe:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_lib_v2_form_carrousel_item:
+    type: entity_reference_entity_view
+    label: hidden
+    settings:
+      view_mode: default
+      link: true
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden:
+  langcode: true

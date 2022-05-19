@@ -1,0 +1,57 @@
+uuid: 0ecbdacb-f1f3-4792-b9a2-763abf283c9b
+langcode: es
+status: true
+dependencies:
+  config:
+    - block_content.type.lib_v2_form_carrousel
+    - field.field.block_content.lib_v2_form_carrousel.field_lib_v2_form_carrousel_embe
+    - field.field.block_content.lib_v2_form_carrousel.field_lib_v2_form_carrousel_item
+  module:
+    - inline_entity_form
+    - text
+id: block_content.lib_v2_form_carrousel.default
+targetEntityType: block_content
+bundle: lib_v2_form_carrousel
+mode: default
+content:
+  field_lib_v2_form_carrousel_embe:
+    type: text_textarea
+    weight: 26
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+  field_lib_v2_form_carrousel_item:
+    type: inline_entity_form_complex
+    weight: 27
+    region: content
+    settings:
+      form_mode: default
+      override_labels: false
+      label_singular: ''
+      label_plural: ''
+      allow_new: true
+      allow_existing: false
+      match_operator: CONTAINS
+      allow_duplicate: false
+      collapsible: false
+      collapsed: false
+      revision: false
+    third_party_settings: {  }
+  info:
+    type: string_textfield
+    weight: -5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  langcode:
+    type: language_select
+    weight: 2
+    region: content
+    settings:
+      include_locked: true
+    third_party_settings: {  }
+hidden: {  }

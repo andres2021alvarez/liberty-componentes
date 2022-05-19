@@ -1,0 +1,49 @@
+uuid: 246b889e-02e8-4da1-80cf-888867ec9f7f
+langcode: es
+status: true
+dependencies:
+  config:
+    - block_content.type.lib_v2_quick_acces_card_item
+    - field.field.block_content.lib_v2_quick_acces_card_item.field_lib_v2_quick_acces_card_ic
+    - field.field.block_content.lib_v2_quick_acces_card_item.field_lib_v2_quick_acces_card_li
+  module:
+    - link
+    - media_library
+_core:
+  default_config_hash: NJG86czF85JlaEvbqr-0XJNRf91ZtLr7HufN_0S7RW8
+id: block_content.lib_v2_quick_acces_card_item.default
+targetEntityType: block_content
+bundle: lib_v2_quick_acces_card_item
+mode: default
+content:
+  field_lib_v2_quick_acces_card_ic:
+    type: media_library_widget
+    weight: 27
+    region: content
+    settings:
+      media_types: {  }
+    third_party_settings: {  }
+  field_lib_v2_quick_acces_card_li:
+    type: link_default
+    weight: 26
+    region: content
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+  info:
+    type: string_textfield
+    weight: -5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  langcode:
+    type: language_select
+    weight: 2
+    region: content
+    settings:
+      include_locked: true
+    third_party_settings: {  }
+hidden: {  }

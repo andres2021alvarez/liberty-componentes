@@ -1,0 +1,8 @@
+uuid: 22bc02e0-aadd-462c-99c6-554d4a8ec623
+langcode: es
+status: true
+dependencies: {  }
+id: lib_v2_items
+label: 'Items embeed'
+revision: 0
+description: ''

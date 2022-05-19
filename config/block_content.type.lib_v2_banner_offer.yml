@@ -1,0 +1,10 @@
+uuid: 98a63bd0-b27c-44ea-b05c-b5cbb1370346
+langcode: es
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: WsGS3WG0R-bs_z0ZVYE3vi4pcMiDCqbbSPFKKo6nA04
+id: lib_v2_banner_offer
+label: 'Banner ofertas'
+revision: 0
+description: ''

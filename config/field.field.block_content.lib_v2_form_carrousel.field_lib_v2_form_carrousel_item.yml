@@ -1,0 +1,29 @@
+uuid: adb46891-bece-464a-9454-5911673e6115
+langcode: es
+status: true
+dependencies:
+  config:
+    - block_content.type.lib_v2_form_carrousel
+    - block_content.type.lib_v2_items
+    - field.storage.block_content.field_lib_v2_form_carrousel_item
+id: block_content.lib_v2_form_carrousel.field_lib_v2_form_carrousel_item
+field_name: field_lib_v2_form_carrousel_item
+entity_type: block_content
+bundle: lib_v2_form_carrousel
+label: Items
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:block_content'
+  handler_settings:
+    target_bundles:
+      lib_v2_items: lib_v2_items
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

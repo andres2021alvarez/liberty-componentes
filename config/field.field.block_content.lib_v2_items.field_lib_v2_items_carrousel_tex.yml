@@ -1,0 +1,21 @@
+uuid: 9210f2fc-8b24-4daf-b97b-85f4896a775f
+langcode: es
+status: true
+dependencies:
+  config:
+    - block_content.type.lib_v2_items
+    - field.storage.block_content.field_lib_v2_items_carrousel_tex
+  module:
+    - text
+id: block_content.lib_v2_items.field_lib_v2_items_carrousel_tex
+field_name: field_lib_v2_items_carrousel_tex
+entity_type: block_content
+bundle: lib_v2_items
+label: Texto
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long
