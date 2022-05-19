@@ -1,0 +1,11 @@
+uuid: cae0da0b-a930-454f-b56b-263dc22c321d
+langcode: es
+status: true
+dependencies:
+  config:
+    - block_content.type.lib_v2_form_carrousel
+id: block_content.lib_v2_form_carrousel
+target_entity_type_id: block_content
+target_bundle: lib_v2_form_carrousel
+default_langcode: site_default
+language_alterable: false

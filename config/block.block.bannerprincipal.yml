@@ -11,7 +11,7 @@ dependencies:
 id: bannerprincipal
 theme: custom_theme
 region: content
-weight: -1
+weight: -3
 provider: null
 plugin: 'block_content:93626ce3-68b1-4b46-ae7c-ac8586f7c9c7'
 settings:

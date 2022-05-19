@@ -1,20 +1,20 @@
-uuid: 089c4ca1-d675-462f-aefe-7330e368a49f
+uuid: ce271584-7300-4f9e-bbdb-7dce0411a915
 langcode: es
 status: true
 dependencies:
   module:
     - block_content
 _core:
-  default_config_hash: dGyRsVfKS8IsPv8Skwjz0x_61Wq4TGGfCoVZvTBj3WA
-id: block_content.field_lib_v2_categtabs_group_ref
-field_name: field_lib_v2_categtabs_group_ref
+  default_config_hash: 2mUjwpH_d583oI8KVetPPAUAlHejE0oy5ESbblLEhlo
+id: block_content.field_lib_v2_quick_acces_gref
+field_name: field_lib_v2_quick_acces_gref
 entity_type: block_content
 type: entity_reference
 settings:
   target_type: block_content
 module: core
 locked: false
-cardinality: 1
+cardinality: 4
 translatable: true
 indexes: {  }
 persist_with_no_fields: false

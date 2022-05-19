@@ -1,0 +1,10 @@
+uuid: 06810bb2-f048-4b72-aab8-b106f7892a14
+langcode: es
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: ELsLnUZixnhDmv91gSCSleFgvAuZWQYjbvtQMvcwzoM
+id: lib_v2_quick_acces_card
+label: 'Tarjeta de accesos rapidos'
+revision: 0
+description: 'Tarjetas para componente de accesos rapidos'

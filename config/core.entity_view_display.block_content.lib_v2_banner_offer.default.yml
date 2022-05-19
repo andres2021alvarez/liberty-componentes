@@ -1,0 +1,67 @@
+uuid: cb0019bc-924c-4364-86d0-07f98dd04251
+langcode: es
+status: true
+dependencies:
+  config:
+    - block_content.type.lib_v2_banner_offer
+    - field.field.block_content.lib_v2_banner_offer.field_lib_v2_banner_offer_backgr
+    - field.field.block_content.lib_v2_banner_offer.field_lib_v2_banner_offer_headin
+    - field.field.block_content.lib_v2_banner_offer.field_lib_v2_banner_offer_image
+    - field.field.block_content.lib_v2_banner_offer.field_lib_v2_banner_offer_link
+    - field.field.block_content.lib_v2_banner_offer.field_lib_v2_banner_offer_subhea
+  module:
+    - link
+    - options
+_core:
+  default_config_hash: Xy4Of5lq_t-iDpxYk27KLDVK6qEqU35JCKYRgBXSAAA
+id: block_content.lib_v2_banner_offer.default
+targetEntityType: block_content
+bundle: lib_v2_banner_offer
+mode: default
+content:
+  field_lib_v2_banner_offer_backgr:
+    type: list_key
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_lib_v2_banner_offer_headin:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_lib_v2_banner_offer_image:
+    type: entity_reference_entity_view
+    label: hidden
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_lib_v2_banner_offer_link:
+    type: link
+    label: hidden
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_lib_v2_banner_offer_subhea:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 4
+    region: content
+hidden:
+  langcode: true

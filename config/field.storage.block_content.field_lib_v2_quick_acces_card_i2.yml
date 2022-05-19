@@ -1,4 +1,4 @@
-uuid: 41ca030c-d97e-4281-ac39-68b4e5c0263b
+uuid: 1f8cca5b-5880-430f-860e-35f78988a38a
 langcode: es
 status: true
 dependencies:
@@ -6,9 +6,9 @@ dependencies:
     - block_content
     - media
 _core:
-  default_config_hash: twm1SZlEfLiiMuND483ushMiyHt4VYDnnQjHzjRe1qU
-id: block_content.field_lib_v2_categtabs_icons
-field_name: field_lib_v2_categtabs_icons
+  default_config_hash: DbvcvAKk6PcuQYTqJn4FGKx5F3tmhVV2gahA4e5sIqs
+id: block_content.field_lib_v2_quick_acces_card_i2
+field_name: field_lib_v2_quick_acces_card_i2
 entity_type: block_content
 type: entity_reference
 settings:

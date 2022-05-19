@@ -1,0 +1,25 @@
+uuid: 75679869-8196-46d5-bef9-8971553da129
+langcode: es
+status: true
+dependencies:
+  content:
+    - 'block_content:lib_v2_form_carrousel:03556e34-874b-4e60-9cee-03b77f3275d0'
+  module:
+    - block_content
+  theme:
+    - custom_theme
+id: embeedform
+theme: custom_theme
+region: content
+weight: 2
+provider: null
+plugin: 'block_content:03556e34-874b-4e60-9cee-03b77f3275d0'
+settings:
+  id: 'block_content:03556e34-874b-4e60-9cee-03b77f3275d0'
+  label: 'Embeed form'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

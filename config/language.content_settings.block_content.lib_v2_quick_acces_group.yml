@@ -1,0 +1,13 @@
+uuid: 551d0468-f143-4746-94dc-2236819bb0b8
+langcode: es
+status: true
+dependencies:
+  config:
+    - block_content.type.lib_v2_quick_acces_group
+_core:
+  default_config_hash: z0UNmVMf_d5k3aCNLHmwdjTML5YLV6aSaJGb_c1HyiI
+id: block_content.lib_v2_quick_acces_group
+target_entity_type_id: block_content
+target_bundle: lib_v2_quick_acces_group
+default_langcode: site_default
+language_alterable: false

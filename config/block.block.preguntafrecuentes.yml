@@ -11,7 +11,7 @@ dependencies:
 id: preguntafrecuentes
 theme: custom_theme
 region: content
-weight: -2
+weight: -4
 provider: null
 plugin: 'block_content:ca5e2cfc-db42-417b-aaf4-2060ab2f55b2'
 settings:

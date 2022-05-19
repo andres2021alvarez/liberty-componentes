@@ -1,13 +1,13 @@
-uuid: 68b68e2c-5efb-4e89-a816-ad409715fa33
+uuid: 4f6fcb92-09c4-46ea-a6e6-63be15f0fd4d
 langcode: es
 status: true
 dependencies:
   module:
     - block_content
 _core:
-  default_config_hash: fB5VwIO__77b66wKhuVmwOB1Zuw3nGb-Cgo4fyVf7Cc
-id: block_content.field_lib_v2_categtabs_title
-field_name: field_lib_v2_categtabs_title
+  default_config_hash: BV7cnVysnuC2tDIcHCpC_bSnrJ6t-uv2945emssGzfA
+id: block_content.field_lib_v2_quick_acces_gtitle
+field_name: field_lib_v2_quick_acces_gtitle
 entity_type: block_content
 type: string
 settings:

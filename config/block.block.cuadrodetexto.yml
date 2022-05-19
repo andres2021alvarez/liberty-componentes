@@ -11,7 +11,7 @@ dependencies:
 id: cuadrodetexto
 theme: custom_theme
 region: content
-weight: 0
+weight: -2
 provider: null
 plugin: 'block_content:05d40b04-8915-405d-8dcf-ae2049eb9541'
 settings:

@@ -1,13 +1,13 @@
-uuid: 121feabc-9449-4b93-9c42-27c5706ede91
+uuid: 7c49e14b-5696-4517-9f67-398466ad921c
 langcode: es
 status: true
 dependencies:
   module:
     - block_content
 _core:
-  default_config_hash: EAZ5uHHyUqkns5-sLRy8P-wL8dtmLbbBsd9xaWSMS5w
-id: block_content.field_lib_v2_categcard_desc
-field_name: field_lib_v2_categcard_desc
+  default_config_hash: tFYzFTNkg3B6TjfKOkdFITxOjsXrwrbFPxEUj87u7-8
+id: block_content.field_lib_v2_banner_offer_subhea
+field_name: field_lib_v2_banner_offer_subhea
 entity_type: block_content
 type: string
 settings:

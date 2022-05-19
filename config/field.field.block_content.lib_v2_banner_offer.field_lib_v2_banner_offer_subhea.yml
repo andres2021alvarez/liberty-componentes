@@ -1,0 +1,21 @@
+uuid: 7f67dfaf-1197-4563-991c-7bc5596096b8
+langcode: es
+status: true
+dependencies:
+  config:
+    - block_content.type.lib_v2_banner_offer
+    - field.storage.block_content.field_lib_v2_banner_offer_subhea
+_core:
+  default_config_hash: 41Y_9rK-vMi4sO464Nr4y1p3yZEJj5rZFfZxctlx8sY
+id: block_content.lib_v2_banner_offer.field_lib_v2_banner_offer_subhea
+field_name: field_lib_v2_banner_offer_subhea
+entity_type: block_content
+bundle: lib_v2_banner_offer
+label: 'Texto secundario'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

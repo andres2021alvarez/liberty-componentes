@@ -1,0 +1,21 @@
+uuid: 40870d16-879a-43fb-b3a0-4b1962a43983
+langcode: es
+status: true
+dependencies:
+  config:
+    - block_content.type.lib_v2_form_carrousel
+    - field.storage.block_content.field_lib_v2_form_carrousel_embe
+  module:
+    - text
+id: block_content.lib_v2_form_carrousel.field_lib_v2_form_carrousel_embe
+field_name: field_lib_v2_form_carrousel_embe
+entity_type: block_content
+bundle: lib_v2_form_carrousel
+label: Embeed
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

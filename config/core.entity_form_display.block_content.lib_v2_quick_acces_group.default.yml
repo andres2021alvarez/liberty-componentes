@@ -1,0 +1,52 @@
+uuid: b8887904-d0b5-485c-850b-43d211b07832
+langcode: es
+status: true
+dependencies:
+  config:
+    - block_content.type.lib_v2_quick_acces_group
+    - field.field.block_content.lib_v2_quick_acces_group.field_lib_v2_quick_acces_gref
+    - field.field.block_content.lib_v2_quick_acces_group.field_lib_v2_quick_acces_gtitle
+  module:
+    - inline_entity_form
+_core:
+  default_config_hash: Xq7xMJsTuApyBMQXWZKi1gPkvE4Q_0RSl2GVknEUzvw
+id: block_content.lib_v2_quick_acces_group.default
+targetEntityType: block_content
+bundle: lib_v2_quick_acces_group
+mode: default
+content:
+  field_lib_v2_quick_acces_gref:
+    type: inline_entity_form_complex
+    weight: 2
+    region: content
+    settings:
+      form_mode: default
+      override_labels: false
+      label_singular: ''
+      label_plural: ''
+      allow_new: true
+      allow_existing: false
+      match_operator: CONTAINS
+      allow_duplicate: false
+      collapsible: false
+      collapsed: false
+      revision: false
+    third_party_settings: {  }
+  field_lib_v2_quick_acces_gtitle:
+    type: string_textfield
+    weight: 1
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  info:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  langcode: true

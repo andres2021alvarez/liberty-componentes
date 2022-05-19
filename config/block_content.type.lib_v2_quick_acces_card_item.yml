@@ -1,0 +1,10 @@
+uuid: f511cda0-ccbd-43dd-8fe9-b81370e4f095
+langcode: es
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: RPNvI0j8GHwyCkFS1nasPBvhKkbCMRuM81ghps73YqY
+id: lib_v2_quick_acces_card_item
+label: 'Items para accesos rapidos'
+revision: 0
+description: 'items para componentes de accesos rapidos'

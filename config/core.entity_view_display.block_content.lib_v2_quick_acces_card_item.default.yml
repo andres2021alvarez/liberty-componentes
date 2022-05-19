@@ -1,0 +1,40 @@
+uuid: 44c45ee8-1f62-42fa-88fe-6d06fc9a128b
+langcode: es
+status: true
+dependencies:
+  config:
+    - block_content.type.lib_v2_quick_acces_card_item
+    - field.field.block_content.lib_v2_quick_acces_card_item.field_lib_v2_quick_acces_card_ic
+    - field.field.block_content.lib_v2_quick_acces_card_item.field_lib_v2_quick_acces_card_li
+  module:
+    - link
+_core:
+  default_config_hash: 3rPeG-798Fp0orZXZ3nhkWXhZMumZxj8LbtmJiE6xTU
+id: block_content.lib_v2_quick_acces_card_item.default
+targetEntityType: block_content
+bundle: lib_v2_quick_acces_card_item
+mode: default
+content:
+  field_lib_v2_quick_acces_card_ic:
+    type: entity_reference_entity_view
+    label: hidden
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_lib_v2_quick_acces_card_li:
+    type: link
+    label: hidden
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  langcode: true

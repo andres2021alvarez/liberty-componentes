@@ -1,0 +1,47 @@
+<?php
+
+/**
+ * @file
+ * Contains lib_form_embeed_carrousel.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function lib_form_embeed_carrousel_help($route_name, RouteMatchInterface $route_match)
+{
+    switch ($route_name) {
+        // Main module help for the lib_form_embeed_carrousel module.
+        case 'help.page.lib_form_embeed_carrousel':
+            $output = '';
+            $output .= '<h3>' . t('About') . '</h3>';
+            $output .= '<p>' . t('embedded form with a carousel') . '</p>';
+            return $output;
+
+        default:
+    }
+}
+
+/**
+ * Implements hook_theme().
+ */
+function lib_form_embeed_carrousel_theme()
+{
+    return [
+        'lib_form_embeed_carrousel' => [
+            'render element' => 'children',
+        ],
+    ];
+}
+
+/**
+ * Implements hook_theme_suggestions_block_alter().
+ */
+function lib_form_embeed_carrousel_theme_suggestions_block_alter(array &$suggestions, array $variables, $hook)
+{
+    if (isset($variables['elements']['content']['#block_content'])) {
+        array_splice($suggestions, 1, 0, 'block__' . $variables['elements']['content']['#block_content']->bundle());
+    }
+}

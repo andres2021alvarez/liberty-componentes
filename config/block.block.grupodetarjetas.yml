@@ -11,7 +11,7 @@ dependencies:
 id: grupodetarjetas
 theme: custom_theme
 region: content
-weight: -3
+weight: -5
 provider: null
 plugin: 'block_content:b214a51e-1997-4ac1-bd5a-f0bb0f4d5ce6'
 settings:

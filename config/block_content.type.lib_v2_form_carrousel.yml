@@ -1,0 +1,8 @@
+uuid: 5af95d31-5635-422b-9e76-ecc45ab5edae
+langcode: es
+status: true
+dependencies: {  }
+id: lib_v2_form_carrousel
+label: 'Embeed form y Carrousel'
+revision: 0
+description: ''

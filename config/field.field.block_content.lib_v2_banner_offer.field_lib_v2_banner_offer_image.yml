@@ -1,0 +1,31 @@
+uuid: ca8634b6-d115-45c3-99f5-f42e7d3f4bb1
+langcode: es
+status: true
+dependencies:
+  config:
+    - block_content.type.lib_v2_banner_offer
+    - field.storage.block_content.field_lib_v2_banner_offer_image
+    - media.type.image
+_core:
+  default_config_hash: sQrLQWY7YWiziLrbH6qiKCbeg0uguBU3Y103mMZJL8A
+id: block_content.lib_v2_banner_offer.field_lib_v2_banner_offer_image
+field_name: field_lib_v2_banner_offer_image
+entity_type: block_content
+bundle: lib_v2_banner_offer
+label: Imagen
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      image: image
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

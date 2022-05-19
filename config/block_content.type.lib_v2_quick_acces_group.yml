@@ -1,0 +1,10 @@
+uuid: ecd12d38-9d4b-4bcc-8984-c4ec1841dcb5
+langcode: es
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: g-OH0KdtQSYCeA2GYD3yhYlna4Cnxtq1YCqmkVRjMbs
+id: lib_v2_quick_acces_group
+label: 'Accesos rapidos'
+revision: 0
+description: 'Bloque de accesos rapidos'

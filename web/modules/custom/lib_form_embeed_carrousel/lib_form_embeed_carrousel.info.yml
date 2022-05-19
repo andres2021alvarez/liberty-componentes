@@ -1,0 +1,10 @@
+name: 'Form Embeed Carrousel'
+type: module
+description: 'embedded form with a carousel'
+core_version_requirement: ^8 || ^9
+package: 'Esinergia'
+dependencies: 
+  - media
+  - media_library
+  - inline_entity_form
+  - lib_v2_core
