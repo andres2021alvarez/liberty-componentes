@@ -1,0 +1,39 @@
+{{ attach_library('lib_v2_core/libraries') }}
+{{ attach_library('lib_banner_iframe_v2/libraries') }}
+
+<div class="lib-comp-banner-iframe">
+    <div class="lib-comp-banner-iframe__left">
+        {# iframe here #}
+    </div>
+    <div class="lib-comp-banner-iframe__right">
+        <div class="lib-comp-carrousel-iframe">
+            <div class="lib-comp-carrousel-iframe__items">
+                {% for key, item in card_carrusel_iframe %}
+                    {# Items carrousel #}
+                    {% if key == 0 %}
+                        <div class="lib-comp-carrousel-iframe__item lib-comp-carrousel-iframe__item__{{key + 1}} is-active">
+                        {% else %}
+                            <div class="lib-comp-carrousel-iframe__item lib-comp-carrousel-iframe__item__{{key + 1}}">
+                            {% endif %}
+                            <div class="lib-comp-carrousel-iframe__content">
+                                <div class="lib-comp-carrousel-iframe__image">
+                                    <div class="lib-comp-carrousel-iframe__title"></div>
+                                    <div class="field__item">
+                                        <img src="{{item.imagen}}" width="780" height="780" alt="Easy" loading="lazy" typeof="foaf:Image" class="image-style-large">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        {# End Items carrousel #}
+                {% endfor %}
+            </div>
+
+            <div class="lib-comp-carrousel-iframe__nav">
+                {# circles #}
+                {% for key, item in content.field_lib_v2_carousel_group_ref if key|first != '#' %}
+                    <span class="lib-comp-carrousel-iframe__circle lib-comp-carrousel-iframe__circle__{{key + 1}}">{{key}}</span>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</div>
