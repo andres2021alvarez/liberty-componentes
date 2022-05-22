@@ -1,0 +1,9 @@
+name: 'Lib banner embeed '
+type: module
+description: 'Banner carousel con un formulario embeed'
+core_version_requirement: ^8 || ^9
+package: 'Esinergia'
+dependencies: 
+  - media
+  - media_library
+  - lib_v2_core
