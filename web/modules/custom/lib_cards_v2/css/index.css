@@ -21,6 +21,14 @@
     position: relative;
 }
 
+.lib-comp-card__title {
+    font-size: 1.5em;
+    font-weight: bold;
+    line-height: 1.4;
+    text-align: left;
+    margin: 1rem 0;
+}
+
 .lib-comp-card__image img {
     width: 100%;
     height: auto;
